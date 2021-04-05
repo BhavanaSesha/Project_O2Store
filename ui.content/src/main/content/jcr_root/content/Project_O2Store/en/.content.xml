@@ -4,6 +4,8 @@
     <jcr:content
         cq:contextHubPath="/libs/settings/cloudsettings/legacy/contexthub"
         cq:contextHubSegmentsPath="/conf/Project_O2Store/settings/wcm/segments"
+        cq:lastModified="{Date}2021-04-05T14:50:45.100+05:30"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/Project_O2Store/settings/wcm/templates/content-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="English"
@@ -135,6 +137,40 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="Project_O2Store/components/content/sharing"/>
             </responsivegrid>
+            <fertilizerspagecreat
+                jcr:created="{Date}2021-04-05T13:04:47.065+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-05T14:50:45.092+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Project_O2Store/components/PDP page creation Components/FertilizersPageCreationComponent"/>
+            <planterspagecreation
+                jcr:created="{Date}2021-04-05T14:26:14.037+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-05T14:27:02.557+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Project_O2Store/components/PDP page creation Components/PlantersPageCreationComponent"/>
+            <plantspagecreationco
+                jcr:created="{Date}2021-04-05T14:26:19.571+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-05T14:27:15.534+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Project_O2Store/components/PDP page creation Components/PlantsPageCreationComponent"/>
+            <seedspagecreationcom
+                jcr:created="{Date}2021-04-05T14:26:24.287+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-05T14:27:19.421+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Project_O2Store/components/PDP page creation Components/SeedsPageCreationComponent"/>
         </root>
     </jcr:content>
+    <homepage/>
+    <plants/>
+    <seeds/>
+    <planters/>
+    <fertilizers/>
+    <login/>
 </jcr:root>
