@@ -8,16 +8,16 @@
         cq:name="hibiscus-red-plant.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/plants/hibiscus-red-plant"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-05T12:26:06.113+05:30"
+        jcr:lastModified="{Date}2021-04-05T17:41:15.781+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2021-04-05T12:25:31.901+05:30"
+            dam:extracted="{Date}2021-04-05T17:41:15.194+05:30"
             dam:sha1="3baea7d0fd095ebaf3929326a4de2c099a68acb3"
             dam:size="{Long}63382"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-02T23:36:58.892+05:30"
-            jcr:lastModified="{Date}2021-04-05T12:26:06.112+05:30"
+            jcr:lastModified="{Date}2021-04-05T17:40:49.448+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

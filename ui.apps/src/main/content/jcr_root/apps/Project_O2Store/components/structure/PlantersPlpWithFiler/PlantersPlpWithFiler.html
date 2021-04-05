@@ -1,0 +1,108 @@
+<sly data-sly-use.obj1="com.mindtree.Project_O2Store.core.models.AllCategoriesModel"/>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+data-sly-call = "${clientlib.all @ categories='Plantersplp'}"/>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<body>
+<div id="plantersdropdown">
+<p id="sidenav-textstyle-catgories1">Types of Planters</p>
+<p id="all-unchecked">Go back to all planters</p>
+<form name="Categories">
+  <input type="checkbox" value="Accesories" name="Accesories"/><label> Accesories </label><br>
+  <input type="checkbox" value="Materials" name="Materials"/><label> Materials</label><br>
+
+</form>
+</div>
+
+
+	<div class="container">
+
+        <div id="allData">
+        <div class="row">
+		</div>
+		<div class="row">
+
+
+            <div class="col" style="padding:20px;" data-sly-repeat="${obj1.getPlanters}" >
+            ${item.getProductName}
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
+                        src="/content/dam/Project_O2Store/en/planters/planter-images/${item.getPlantName}.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">₹ ${item.getPrice}</h5>
+                    <a href="${item.getPdpLink}" style="text-decoration:none;">
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
+                            <button type="button" class="btn btn-primary">Quick Shop</button>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+
+
+                    </div>
+                </div>
+            </div>
+
+		</div>
+        </div>
+
+<div id="Accesories">
+    <h1>Accesories</h1>
+     <div class="row">
+		</div>
+		<div class="row">
+
+
+            <div class="col" style="padding:20px;" data-sly-repeat="${obj1.getAccesories}" >
+            ${item.getProductName}
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
+                        src="/content/dam/Project_O2Store/en/planters/planter-images/${item.getPlantName}.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">₹ ${item.getPrice}</h5>
+                    <a href="${item.getPdpLink}" style="text-decoration:none;">
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
+                            <button type="button" class="btn btn-primary">Quick Shop</button>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+<div id="Materials">
+  <h1>Materials</h1>
+     <div class="row">
+		</div>
+		<div class="row">
+
+
+            <div class="col" style="padding:20px;" data-sly-repeat="${obj1.getMaterials}" >
+            ${item.getProductName}
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
+                      src="/content/dam/Project_O2Store/en/planters/planter-images/${item.getPlantName}.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">₹ ${item.getPrice}</h5>
+                    <a href="${item.getPdpLink}" style="text-decoration:none;">
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
+                            <button type="button" class="btn btn-primary">Quick Shop</button>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
