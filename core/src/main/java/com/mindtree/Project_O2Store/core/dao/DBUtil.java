@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class DBUtil {
 	private static final String username="root";
-	private static final String password="root";
-	private static final String url="jdbc:mysql://localhost:3306/O2Store_Project";
+	private static final String password="Amalapuram@9";
+	private static final String url="jdbc:mysql://localhost:3306/o2store2";
 	public static Connection getConnection() {
 		Connection connection = null;
 		try {
