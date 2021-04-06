@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="58665fd2-b6c0-4218-9523-7a15dab1ab00">
     <jcr:content
+        cq:name="fiddle-leaf.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/plants/plant-images"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-05T17:59:53.887+05:30"
+        jcr:lastModified="{Date}2021-04-06T11:45:56.582+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-05T17:59:47.067+05:30"
+            dam:extracted="{Date}2021-04-06T11:45:46.072+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.097222328186035"
             dam:Progressive="no"
-            dam:sha1="6dbf0200926d71ba23124fe8999b6e5c2734de67"
+            dam:sha1="472fa3cce388be97664cbdbd1474669195730abb"
             dam:size="{Long}7203"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-06T11:45:55.589+05:30"
+            jcr:lastModified="{Date}2021-04-06T11:45:55.588+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}223"

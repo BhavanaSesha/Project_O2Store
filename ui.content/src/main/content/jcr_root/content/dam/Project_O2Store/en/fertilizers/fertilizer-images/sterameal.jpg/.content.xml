@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="c19e2136-5a15-4db0-99c9-95122ff9e866">
     <jcr:content
+        cq:name="sterameal.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/fertilizers/fertilizer-images"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-05T18:02:43.457+05:30"
+        jcr:lastModified="{Date}2021-04-06T11:44:03.651+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-05T18:02:42.486+05:30"
+            dam:extracted="{Date}2021-04-06T11:44:02.358+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.097222328186035"
             dam:Progressive="no"
-            dam:sha1="616183fc53253fe379f60cd6ae6d0333800248da"
-            dam:size="{Long}6052"
+            dam:sha1="f5c4d8605c4cb30a7f8b8cece251faf5f6d1ce0b"
+            dam:size="{Long}9043"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-06T11:43:15.414+05:30"
+            jcr:lastModified="{Date}2021-04-06T11:43:15.413+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}223"

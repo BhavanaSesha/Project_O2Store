@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="903dd9b9-9526-4d92-932e-6229aa316c68">
     <jcr:content
+        cq:name="kadamba-anthocephalus-cadamba-20-seed-balls.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/seeds/seed-images"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-05T18:01:49.483+05:30"
+        jcr:lastModified="{Date}2021-04-06T11:46:08.132+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.097222328186035"
             dam:Progressive="no"
-            dam:sha1="e5faf02e4cb7d728369eedfd7a56dea436acfbab"
+            dam:sha1="ea2a7b19813aba64e1d93d3650b0f09a65201399"
             dam:size="{Long}10310"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-06T11:46:07.460+05:30"
+            jcr:lastModified="{Date}2021-04-06T11:46:07.460+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}223"

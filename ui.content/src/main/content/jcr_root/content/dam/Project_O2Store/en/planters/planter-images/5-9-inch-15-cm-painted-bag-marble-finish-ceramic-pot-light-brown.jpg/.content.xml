@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="8536c271-9e15-419c-929d-cd7d1e844d8a">
     <jcr:content
+        cq:name="5-9-inch-15-cm-painted-bag-marble-finish-ceramic-pot-light-brown.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/planters/planter-images"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-05T18:03:43.239+05:30"
+        jcr:lastModified="{Date}2021-04-06T11:44:39.667+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-05T18:03:42.710+05:30"
+            dam:extracted="{Date}2021-04-06T11:44:39.062+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.097222328186035"
             dam:Progressive="no"
-            dam:sha1="5e7a816453c42c2a3e64dc7db1d75aefc22d51b9"
-            dam:size="{Long}5977"
+            dam:sha1="4126f3c8d36c603e5f0ea0f9bede2fc95daccef3"
+            dam:size="{Long}8968"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-06T11:44:27.952+05:30"
+            jcr:lastModified="{Date}2021-04-06T11:44:27.952+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}223"

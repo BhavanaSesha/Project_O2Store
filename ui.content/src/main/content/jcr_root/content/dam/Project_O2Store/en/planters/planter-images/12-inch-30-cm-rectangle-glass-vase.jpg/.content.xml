@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="70434594-5857-4a8b-abef-c9b82138a46f">
     <jcr:content
+        cq:name="12-inch-30-cm-rectangle-glass-vase.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/planters/planter-images"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-05T18:03:45.396+05:30"
+        jcr:lastModified="{Date}2021-04-06T11:44:31.977+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-05T18:03:44.544+05:30"
+            dam:extracted="{Date}2021-04-06T11:44:13.212+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.097222328186035"
             dam:Progressive="no"
-            dam:sha1="356cff4755a94618bbd0b7c4240b6a550847cf1c"
+            dam:sha1="56a86f527101c9d4e8261b9d059586be049a8f6a"
             dam:size="{Long}4633"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-06T11:44:31.042+05:30"
+            jcr:lastModified="{Date}2021-04-06T11:44:31.041+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}223"

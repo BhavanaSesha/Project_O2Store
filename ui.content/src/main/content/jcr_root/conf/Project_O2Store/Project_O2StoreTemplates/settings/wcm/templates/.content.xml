@@ -3,4 +3,5 @@
     jcr:primaryType="cq:Page">
     <o2projecttemplate/>
     <pagetemplate/>
+    <forgetpasswordtemplate/>
 </jcr:root>

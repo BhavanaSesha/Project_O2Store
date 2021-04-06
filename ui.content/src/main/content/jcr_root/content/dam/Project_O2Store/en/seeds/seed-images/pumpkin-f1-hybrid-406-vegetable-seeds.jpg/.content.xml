@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="c06040e6-9246-4fa4-8b62-387bdea7b215">
     <jcr:content
+        cq:name="pumpkin-f1-hybrid-406-vegetable-seeds.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/seeds/seed-images"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-05T18:01:55.254+05:30"
+        jcr:lastModified="{Date}2021-04-06T11:46:07.558+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-05T18:01:53.542+05:30"
+            dam:extracted="{Date}2021-04-06T11:46:03.824+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.097222328186035"
             dam:Progressive="no"
-            dam:sha1="1094db44ed7bf9ff66e3298842e54dec9385458c"
+            dam:sha1="1a342c606d741d1f767d3d573b9329e6d11a1af1"
             dam:size="{Long}11839"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-06T11:46:07.014+05:30"
+            jcr:lastModified="{Date}2021-04-06T11:46:07.014+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}223"
