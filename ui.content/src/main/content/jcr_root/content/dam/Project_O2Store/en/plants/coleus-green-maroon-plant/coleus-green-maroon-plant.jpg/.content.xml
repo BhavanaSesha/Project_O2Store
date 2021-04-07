@@ -8,16 +8,16 @@
         cq:name="coleus-green-maroon-plant.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/plants/coleus-green-maroon-plant"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-06T11:45:12.682+05:30"
+        jcr:lastModified="{Date}2021-04-05T17:40:53.982+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2021-04-06T11:45:12.381+05:30"
+            dam:extracted="{Date}2021-04-05T17:40:53.632+05:30"
             dam:sha1="e3a4e67c9df0369bc84619e02ab0e79951aafcd2"
             dam:size="{Long}79408"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-02T23:37:27.663+05:30"
-            jcr:lastModified="{Date}2021-04-06T11:45:07.540+05:30"
+            jcr:lastModified="{Date}2021-04-05T17:40:47.007+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="23976ede-6a96-4cc5-b1ca-fe5f233268d7">
     <jcr:content
-        cq:name="shevanti-yellow-plant.jpg"
-        cq:parentPath="/content/dam/Project_O2Store/en/plants/plant-images"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-06T11:45:53.428+05:30"
+        jcr:lastModified="{Date}2021-04-05T17:59:13.319+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-06T11:45:49.475+05:30"
+            dam:extracted="{Date}2021-04-05T17:59:11.432+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -23,12 +20,9 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.097222328186035"
             dam:Progressive="no"
-            dam:sha1="dcd3fea40f4c8cf33e2b62179c7c5c286e8000bd"
+            dam:sha1="3d3d52adfd4a42f3ae34a78c586896babd63d79c"
             dam:size="{Long}9110"
             dc:format="image/jpeg"
-            dc:modified="{Date}2021-04-06T11:45:52.509+05:30"
-            jcr:lastModified="{Date}2021-04-06T11:45:52.509+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}223"

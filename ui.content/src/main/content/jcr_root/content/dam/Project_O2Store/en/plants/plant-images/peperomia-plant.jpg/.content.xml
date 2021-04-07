@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="9c7680d6-3758-4074-85fb-63089c7adef8">
     <jcr:content
-        cq:name="peperomia-plant.jpg"
-        cq:parentPath="/content/dam/Project_O2Store/en/plants/plant-images"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-06T11:45:57.664+05:30"
+        jcr:lastModified="{Date}2021-04-05T17:59:53.981+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-06T11:45:57.118+05:30"
+            dam:extracted="{Date}2021-04-05T17:59:49.254+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -23,12 +20,9 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.097222328186035"
             dam:Progressive="no"
-            dam:sha1="41de45754acc71c2888696d3ccc83a13c035a3f8"
-            dam:size="{Long}9986"
+            dam:sha1="501fdcf572e577975530bd2241ebb1794494347e"
+            dam:size="{Long}6995"
             dc:format="image/jpeg"
-            dc:modified="{Date}2021-04-06T11:45:30.757+05:30"
-            jcr:lastModified="{Date}2021-04-06T11:45:30.756+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}223"

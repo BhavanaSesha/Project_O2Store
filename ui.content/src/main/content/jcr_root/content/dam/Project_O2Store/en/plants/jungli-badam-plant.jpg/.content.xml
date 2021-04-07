@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="7f4d60d2-5836-433d-a6f7-1907216ca1dc">
     <jcr:content
-        cq:name="jungli-badam-plant.jpg"
-        cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-06T11:45:28.678+05:30"
+        jcr:lastModified="{Date}2021-04-05T18:00:18.328+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-06T11:45:28.218+05:30"
+            dam:extracted="{Date}2021-04-05T18:00:14.252+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -23,12 +20,9 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.097222328186035"
             dam:Progressive="no"
-            dam:sha1="3bb4bc0c47a0405fc735991d5cd0b68dd27973fd"
-            dam:size="{Long}15652"
+            dam:sha1="ff00345e524972c2fd3f68fe708672c47fbba26f"
+            dam:size="{Long}12660"
             dc:format="image/jpeg"
-            dc:modified="{Date}2021-04-06T11:45:14.940+05:30"
-            jcr:lastModified="{Date}2021-04-06T11:45:14.939+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}223"

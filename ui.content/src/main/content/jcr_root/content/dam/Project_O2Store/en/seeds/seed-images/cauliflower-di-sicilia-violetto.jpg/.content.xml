@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="ac8be3d0-6b56-44f0-ad99-8c345b372ec0">
     <jcr:content
-        cq:name="cauliflower-di-sicilia-violetto.jpg"
-        cq:parentPath="/content/dam/Project_O2Store/en/seeds/seed-images"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-06T11:46:06.210+05:30"
+        jcr:lastModified="{Date}2021-04-05T18:01:46.867+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-06T11:46:05.899+05:30"
+            dam:extracted="{Date}2021-04-05T18:01:44.275+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -23,12 +20,9 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.097222328186035"
             dam:Progressive="no"
-            dam:sha1="bce6adea45a367a9bfed56de0266f9e809b40c01"
-            dam:size="{Long}15052"
+            dam:sha1="d1f1c9c759fd1fc68a2c8c7ca930400a6f1a38c5"
+            dam:size="{Long}12060"
             dc:format="image/jpeg"
-            dc:modified="{Date}2021-04-06T11:46:04.020+05:30"
-            jcr:lastModified="{Date}2021-04-06T11:46:04.019+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}223"

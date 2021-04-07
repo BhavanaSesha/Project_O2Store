@@ -11,11 +11,12 @@
     <planters/>
     <plants/>
     <seeds/>
-    <login/>
     <billingAddress/>
     <creditcard/>
     <debitcard/>
     <forgetpassword/>
-    <paymentoptions/>
+    <login/>
     <orderplaced/>
+    <paymentoptions/>
+    <homepage/>
 </jcr:root>

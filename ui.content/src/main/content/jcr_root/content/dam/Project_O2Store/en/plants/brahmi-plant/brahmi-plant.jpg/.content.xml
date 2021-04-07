@@ -8,16 +8,16 @@
         cq:name="brahmi-plant.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/plants/brahmi-plant"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-06T11:45:20.645+05:30"
+        jcr:lastModified="{Date}2021-04-05T17:41:05.725+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2021-04-06T11:45:20.344+05:30"
+            dam:extracted="{Date}2021-04-05T17:41:05.292+05:30"
             dam:sha1="47448f1aeac149c09ab7cfb76a3a54461be3bc7c"
             dam:size="{Long}56766"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-02T23:37:12.162+05:30"
-            jcr:lastModified="{Date}2021-04-06T11:45:03.694+05:30"
+            jcr:lastModified="{Date}2021-04-05T17:40:43.742+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

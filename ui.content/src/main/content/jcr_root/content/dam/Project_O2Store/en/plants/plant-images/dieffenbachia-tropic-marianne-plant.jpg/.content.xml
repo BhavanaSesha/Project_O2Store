@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="05196757-dc59-499b-86fc-9a5f71efb21a">
     <jcr:content
-        cq:name="dieffenbachia-tropic-marianne-plant.jpg"
-        cq:parentPath="/content/dam/Project_O2Store/en/plants/plant-images"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-06T11:45:54.797+05:30"
+        jcr:lastModified="{Date}2021-04-05T17:59:49.105+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-06T11:45:53.883+05:30"
+            dam:extracted="{Date}2021-04-05T17:59:44.359+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -23,12 +20,9 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.097222328186035"
             dam:Progressive="no"
-            dam:sha1="f0d8508d75f30d621ff27dad66000d609e28fc51"
-            dam:size="{Long}14288"
+            dam:sha1="57b60ca9453bf683a4bf3c5fb2ce475eae83c2c1"
+            dam:size="{Long}11296"
             dc:format="image/jpeg"
-            dc:modified="{Date}2021-04-06T11:45:40.517+05:30"
-            jcr:lastModified="{Date}2021-04-06T11:45:40.516+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}223"
