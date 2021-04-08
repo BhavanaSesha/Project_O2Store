@@ -1,6 +1,11 @@
 <sly data-sly-use.obj1="com.mindtree.Project_O2Store.core.models.AllCategoriesModel"/>
 <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
 data-sly-call = "${clientlib.all @ categories='Plantersplp'}"/>
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+data-sly-call="${clientlib.js @ categories='o2_cart'}"/>
+
+<sly data-sly-include="/apps/Project_O2Store/components/structure/CartComponent/CartComponent.html"/>
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
