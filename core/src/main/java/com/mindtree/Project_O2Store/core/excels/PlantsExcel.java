@@ -34,12 +34,12 @@ public class PlantsExcel {
 				String abt1=r.getCell(7).getStringCellValue();
 				String abt2=r.getCell(8).getStringCellValue();
 				String abt3=r.getCell(9).getStringCellValue();
-				double price=r.getCell(10).getNumericCellValue();
+				int price=(int) r.getCell(10).getNumericCellValue();
 				String image=r.getCell(11).getStringCellValue();
 				String offer1=r.getCell(12).getStringCellValue();
 				String offer2=r.getCell(13).getStringCellValue();
-				double originalPrice=r.getCell(14).getNumericCellValue();
-				double plantId=r.getCell(15).getNumericCellValue();
+				int originalPrice=(int)r.getCell(14).getNumericCellValue();
+				int plantId=(int)r.getCell(15).getNumericCellValue();
 				PlantPojo data=new PlantPojo(pageName,pagePath,templatePath,pageTitle,category,title,description,abt1,abt2,abt3,price,image,offer1,offer2,originalPrice,plantId);
 				ls.add(data);
 		}
