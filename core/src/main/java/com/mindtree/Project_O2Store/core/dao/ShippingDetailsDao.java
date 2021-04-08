@@ -20,7 +20,7 @@ public class ShippingDetailsDao {
         Class.forName("com.mysql.jdbc.Driver");
 
         try (Connection connection = DriverManager
-            .getConnection("jdbc:mysql://localhost:3306/o2stores", "root", "Amalapuram@9");
+            .getConnection("jdbc:mysql://localhost:3306/o2store2", "root", "Amalapuram@9");
 
             PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {
             preparedStatement.setString(1, shippingDetails.getFullname() );

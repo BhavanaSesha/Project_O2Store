@@ -124,6 +124,7 @@ public class PdpSeedsPagecreationImpl implements PdpSeedsPagecreation {
 					textNode.setProperty("offer1",items.getOffer1());
 					textNode.setProperty("offer2",items.getOffer2());
 					textNode.setProperty("originalPrice",items.getOriginalPrice());
+					textNode.setProperty("plantid",items.getPlantdId());
 					session.save();
 				}
 			}
