@@ -1,96 +1,147 @@
-
-      $(document).ready(function(){
-		alert("invoked");
-        $("#medicinal").hide();
+$(document).ready(function(){
+    alert("invoked");
+    	$("#medicinal").hide();
         $("#foilage").hide();
         $("#flowering").hide();
         $("#RangeOne").hide();
         $("#RangeTwo").hide();
         $("#RangeThree").hide();
-        $('#all-unchecked').hide();
-        $('#all-unchecked1').hide();
+        $("#MedRange1").hide();
+	    $("#MedRange2").hide();
+    	$("#MedRange3").hide();
+        $("#FlowRange1").hide();
+	    $("#FlowRange2").hide();
+ 	    $("#FlowRange3").hide();
+    	$("#FoilRange1").hide();
+    	$("#FoilRange2").hide();
+    	$("#FoilRange3").hide();
+    function hide(){
+        alert('hiding');
+        $("#allData").hide();
+		$("#medicinal").hide();
+        $("#foilage").hide();
+        $("#flowering").hide();
+        $("#RangeOne").hide();
+        $("#RangeTwo").hide();
+        $("#RangeThree").hide();
+        $("#MedRange1").hide();
+	    $("#MedRange2").hide();
+    	$("#MedRange3").hide();
+        $("#FlowRange1").hide();
+	    $("#FlowRange2").hide();
+ 	    $("#FlowRange3").hide();
+        $("#FoilRange1").hide();
+    	$("#FoilRange2").hide();
+    	$("#FoilRange3").hide();
+    }
+    $("#btnCheck").click(function () {
+        var checked = $("#plantdropdown input[type=checkbox]:checked").length;
 
-<!-- unchecked  Function -->
-$('#all-unchecked').click(function(){
-        if(!$('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked'))
-        {
-            $('#pricedropdown').show();
-			$('#all-unchecked').hide();
+        if (checked > 0) {
+            alert(checked + " CheckBoxe(s) are checked.");
+            if($('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked') && !$('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
+            {
+                alert('medicine is selected');
+                hide();
+                $("#medicinal").show();
+
+            }
+            else  if(!$('input[name="medicine"]').is(':checked') && $('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked') && !$('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
+            {
+                alert('flower is selected');
+                hide();
+                $("#flowering").show();
+            }
+            else  if(!$('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && $('input[name="foilage"]').is(':checked') && !$('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
+            {
+                alert('foilage is selected');
+                hide();
+                $("#foilage").show();
+            }
+            else if(!$('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked') && $('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
+            {
+                alert('range 1 selected');
+                hide();
+                 $("#RangeOne").show();
+            }
+            else if(!$('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked') && !$('input[name="Range1"]').is(':checked') && $('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
+            {
+                alert('range 2 selected');
+                hide();
+                 $("#RangeTwo").show();
+
+            }
+            else if(!$('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked') &&!$('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && $('input[name="Range3"]').is(':checked'))
+            {
+                alert('range 3 selected');
+                hide();
+                $("#RangeThree").show();
+            }
+            else if($('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked') && !$('input[name="Range1"]').is(':checked') && $('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
+            {
+                alert('medicine and range2 is selected ');
+                hide();
+                $("#MedRange2").show();
+
+            }  
+            else if($('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked') && $('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
+            {
+                alert('medicine and range1 is selected');
+                hide();
+                $("#MedRange1").show();
+            }
+            else if($('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked') && !$('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && $('input[name="Range3"]').is(':checked'))
+            {
+                alert('medicine and range3 is selected');
+                hide();
+                $("#MedRange3").show();
+            }
+            else if(!$('input[name="medicine"]').is(':checked') && $('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked') && $('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
+            {
+                alert('flowers and range1 is selected');
+                hide();
+                $("#FlowRange1").show();
+            }
+            else if(!$('input[name="medicine"]').is(':checked') && $('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked') && !$('input[name="Range1"]').is(':checked') && $('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
+            {
+                 alert('flowers and range2 is selected');
+                hide();
+                $("#FlowRange2").show();
+            }
+            else if(!$('input[name="medicine"]').is(':checked') && $('input[name="flowers"]').is(':checked') && !$('input[name="foilage"]').is(':checked') && !$('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && $('input[name="Range3"]').is(':checked'))
+            {
+                alert('flowers and range3 is selected');
+                hide();
+                $("#FlowRange3").show();
+            }
+            else if(!$('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && $('input[name="foilage"]').is(':checked') && $('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
+            {
+                alert('floilage and range1 is selected');
+                hide();
+                $("#FoilRange1").show();
+            }
+            else if(!$('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && $('input[name="foilage"]').is(':checked') && !$('input[name="Range1"]').is(':checked') && $('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
+            {
+                alert('floilage and range2 is selected');
+                hide();
+                $("#FoilRange2").show();
+            }
+            else if(!$('input[name="medicine"]').is(':checked') && !$('input[name="flowers"]').is(':checked') && $('input[name="foilage"]').is(':checked') && !$('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && $('input[name="Range3"]').is(':checked'))
+            {
+                alert('floilage and range3 is selected');
+                hide();
+                $("#FoilRange3").show();
+            }
+            else{
+                alert('Kindly select one checkbox from respective filter');
+            }
+
+            return true;
+        } else {
+            alert("No FIlter Active");
+			hide();
             $("#allData").show();
-        }else{
-			alert('atleast one is checked');
-
+            return false;
         }
     });
-<!-- unchecked  Function -->
-$('#all-unchecked1').click(function(){
-        if(!$('input[name="Range1"]').is(':checked') && !$('input[name="Range2"]').is(':checked') && !$('input[name="Range3"]').is(':checked'))
-        {
-            $('#plantdropdown').show();
-			$('#all-unchecked1').hide();
-            $("#allData").show();
-        }else{
-			alert('atleast one is checked');
-
-        }
-    });
-$('input[type=checkbox][name="medicine"]').click(function(){
-    $('#pricedropdown').hide();
-	$("#allData").hide();
-	$("#medicinal").show();
-	$('#all-unchecked').show();
-	if($(this).prop("checked") == false){
-               $("#medicinal").hide();
-}
-});
-
-$('input[type=checkbox][name="foilage"]').click(function(){
-    $('#pricedropdown').hide();
-	$("#allData").hide();
-	$("#foilage").show();
-	$('#all-unchecked').show();
-	if($(this).prop("checked") == false){
-               $("#foilage").hide();
-}
-}); 
-
-
-$('input[type=checkbox][name="flowers"]').click(function(){
-    $('#pricedropdown').hide();
-	$("#allData").hide();
-	$("#flowering").show();
-	$('#all-unchecked').show();
-	if($(this).prop("checked") == false){
-               $("#flowering").hide();
-}
-}); 
-
-
-$('input[type=checkbox][name="Range1"]').click(function(){
-    $('#plantdropdown').hide();
-	$("#allData").hide();
-	$("#RangeOne").show();
-	$('#all-unchecked1').show();
-	if($(this).prop("checked") == false){
-               $("#RangeOne").hide();
-}
-}); 
-$('input[type=checkbox][name="Range2"]').click(function(){
-     $('#plantdropdown').hide();
-	$("#allData").hide();
-	$("#RangeTwo").show();
-	$('#all-unchecked1').show();
-	if($(this).prop("checked") == false){
-               $("#RangeTwo").hide();
-}
-}); 
-$('input[type=checkbox][name="Range3"]').click(function(){
-     $('#plantdropdown').hide();
-	$("#allData").hide();
-	$("#RangeThree").show();
-	$('#all-unchecked1').show();
-	if($(this).prop("checked") == false){
-               $("#RangeThree").hide();
-}
-});
-});
+  });

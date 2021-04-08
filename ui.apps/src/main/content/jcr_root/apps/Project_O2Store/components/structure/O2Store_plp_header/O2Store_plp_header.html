@@ -85,8 +85,8 @@ $("#header-cssmenu").menumaker({
 				 <a href="/content/Project_O2Store/en/homepage.html" style="text-decoration:none;color:#5B9C64;" >
 
 
-           				<img src="/content/dam/Project_O2Store/en/images/logo8.jpg" class="cmp_header_logo" alt="logo"  width="90" height="85"  style="float:left;margin-top:-15px;"/>
-                     		<h2 class="cmp_header_head" style="float:left;margin-top:5px;  color:#5B9C64" >&nbsp;&nbsp;O<sub>2</sub>Store</h2>
+           				<img src="/content/dam/Project_O2Store/en/images/logo8.jpg" class="cmp_header_logo" alt="logo"  width="90" height="85"  style="float:left;margin-top:5px;"/>
+                     		<h2 class="cmp_header_head" style="float:left; margin-top:32px; color:#5B9C64" >&nbsp;&nbsp;O<sub>2</sub>Store</h2>
 
           		</a>
                 <div id="header-head-mobile"></div>
@@ -96,17 +96,14 @@ $("#header-cssmenu").menumaker({
 			<ul>
                    <li  data-sly-repeat="${topnav.getRootChildPages}">
                    		<span class="header-submenu-button"></span>
-                        	<sly data-sly-test="${item.title!='HomePage' && item.title!='Login'}">
+                        	<sly data-sly-test="${item.title!='HomePage'}">
                         	<a href="${item.path}.html">${item.title}</a>
                             </sly>
 
                     </li>
 
                    <!-- <li><a href="/content/O2Store_Project/en/seeds.html">Login</a></li>-->
-                   <li>
-							<i class="fa fa-shopping-cart" style="font-size:28px;color:green;height:6px;" data-toggle="modal" data-target="#cart"> (<span
-										class="total-count" style="color:green";></span>)</i>
-                    </li>
+                    <li><a href="#"><img src="/content/dam/Project_O2Store/en/images/shopping-cart.png" class=".header-cart-logo"  width="70" height="70"></a></li>
                   </ul>
 
 
