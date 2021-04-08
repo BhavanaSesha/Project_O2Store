@@ -1,4 +1,4 @@
-
+(function ($) {
 	var id;
     var name;
     var price;
@@ -79,16 +79,16 @@
                 this.count = count;
             }
        		 function saveCart() {
-               sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
-              //	$.cookie("shoppingCart", JSON.stringify(cart));
+               //sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
+              	$.cookie("shoppingCart", JSON.stringify(cart));
             }
             function loadCart() {
-               cart = JSON.parse(sessionStorage.getItem('shoppingCart'));
-               //cart = JSON.parse($.cookie("shopingCart"))
+               //cart = JSON.parse(sessionStorage.getItem('shoppingCart'));
+               cart = JSON.parse($.cookie("shopingCart"))
 
             }
-           if (sessionStorage.getItem("shoppingCart") != null) {
-          	 //if($.cookie("shopingCart") != null){
+          // if (sessionStorage.getItem("shoppingCart") != null) {
+          	 if($.cookie("shopingCart") != null){
             //if(jQuery.cookie('cart')!=null){
 
 
@@ -397,3 +397,4 @@ $('.add-to-cart').click(function(){
         });
 });
 
+})(jQuery);
