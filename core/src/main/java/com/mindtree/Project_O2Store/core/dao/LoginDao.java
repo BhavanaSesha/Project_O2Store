@@ -14,10 +14,10 @@ public class LoginDao {
 	public boolean validate(Login login) throws ClassNotFoundException {
 		boolean status = false;
 
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/o2stores", "root",
-				"Amalapuram@9");
+		try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/o2store_project", "root",
+				"Bhavana@1");
 
 
 		    Statement st = connection.createStatement();) {
