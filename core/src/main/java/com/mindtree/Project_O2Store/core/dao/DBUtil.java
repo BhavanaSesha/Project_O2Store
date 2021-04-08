@@ -6,12 +6,12 @@ import java.sql.SQLException;
 
 public class DBUtil {
 	private static final String username="root";
-	private static final String password="Bhavana@1";
-	private static final String url="jdbc:mysql://localhost:3306/o2store_project";
+	private static final String password="Amalapuram@9";
+	private static final String url="jdbc:mysql://localhost:3306/o2store2";
 	public static Connection getConnection() {
 		Connection connection = null;
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
