@@ -27,7 +27,7 @@
                                                 }
                                             }
                                         
-                                            if(status == 1) {
+                                           /* if(status == 1) {
                                                 fetchCartData(customerId);
                                                 //alert("I am bacj");
                                         
@@ -39,7 +39,8 @@
                                                 $(".show-cart").html("Login To View Cart!...");
 
                                         
-                                            }
+                                            }*/
+                                  fetchCartData(customerId);
                                         
 
                                         });
@@ -81,6 +82,7 @@
        		 function saveCart() {
               sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
               	//$.cookie("shoppingCart", JSON.stringify(cart));
+       //          document.cookie = "shoppingCart =" + JSON.stringify(cart);
             }
             function loadCart() {
               cart = JSON.parse(sessionStorage.getItem('shoppingCart'));
