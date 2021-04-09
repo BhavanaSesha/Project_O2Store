@@ -1,0 +1,111 @@
+ <sly data-sly-use.obj1="com.mindtree.Project_O2Store.core.models.QuickPayModel"/>
+
+<style>
+*{
+    margin : 0;
+    padding : 0;
+    align:center;
+}
+
+.quickbuyalign-hero{
+    height : 100%;
+    width : 100%;
+    background-color:grey;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.quickbuyalignment{
+padding : 10px 10px 10px 410px;
+color:white;
+}
+
+#price-attribute{
+padding : 0px 0px 0px 50px;
+}
+
+ .quickshop{
+    width: 60%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #20BF55, #20BF55);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.order{
+    width: 30%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #20BF55, #20BF55);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+#quickbuysubmitButton{
+padding : 0px 630px 0px 0px;
+text-align:center;
+}
+
+#confirmordersubmitButton{
+padding : 0px 630px 0px 0px;
+text-align:center;
+}
+
+</style>
+
+
+<div class="quickbuyalign-hero">
+<div class="quickbuyalignment" >
+<u><h2>Order Details</h2></u>
+<br>
+<br>
+
+Product Id : ${obj1.getId}<br>
+Product Price : ${obj1.getPrice}<br>
+Product Name : ${obj1.getName}<br><br>
+<br><br>
+<h2 id="price-attribute">Total Price is : ${obj1.getPrice}</h2>
+<br>
+<br>
+<div id="confirmordersubmitButton">
+<button type button data-id="${obj1.getId}" class="quickshop btn btn-danger" >Confirm Order</button>
+</div>
+<br>
+<div id="quickbuysubmitButton">
+<a href="/content/Project_O2Store/language-master/en/login/BillingPage.html" style="text-decoration:none;"   class="order"  >Checkout</a>
+</div>
+
+</div>
+</div>
+<script>
+
+$('.quickshop').click(function (event) {
+event.preventDefault();
+ var id= $(this).data('id');
+                $.ajax({
+    		type : "POST",    
+       	 	url : '/bin/Quick/QuickShopDelete',    
+        	data : { 
+				id:id
+
+        	},    
+        	success : function(data, textStatus, jqXHR) {
+
+            },
+            error : function(XMLHttpRequest, textStatus, errorThrown) {        
+
+        	}
+        });
+            });
+
+</script>

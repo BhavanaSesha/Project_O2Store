@@ -1,10 +1,157 @@
-<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
-data-sly-call = "${clientlib.all @ categories='login-registerComp'}"/>
-
 <head>
     <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/jquery-cookie-master/src/jquery.cookie.js"></script> 
 </head>
+<style>
+.conatiner{
+text-align:center;
+margin-left:300;
+}
 
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.loginRegister-hero{
+    height : 100%;
+    width : 100%;
+
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.loginRegister-box{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.loginRegister-button_box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #24ff2f1f;
+    border-radius: 30px;
+}
+
+.loginRegister-toggle_btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,  #20BF55, #20BF55);
+    border-radius: 30px;
+
+}
+
+.loginRegister-input_group{
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.login-input_field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.register-input_field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.login-submit_btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #20BF55, #20BF55);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+    .register-submit_btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #20BF55, #20BF55);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.logoutdelete{
+    text-align:center;
+    width: 30%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #20BF55, #20BF55);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    }
+
+.loginRegister-check_box{
+    margin: 30px 10px 30px 0;
+}
+
+.span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#loginRegister-login{
+    left: 50px;
+}
+
+#loginRegister-register{
+left: 450px;
+}
+
+.forget a{
+    float: right;
+    color: green;
+}
+</style>
 
 <body>
 
@@ -21,15 +168,20 @@ data-sly-call = "${clientlib.all @ categories='login-registerComp'}"/>
     <br>
     <br>
     <br>
-    <button type="submit" class="login-submit_btn" onclick="clicked()">Log In</button>
+    <button type="submit" class="login-submit_btn"   value="login"  onclick="clicked()" >Log In</button>
     <br>
     <br>
     <div class="forget">
     <a href="/content/Project_O2Store/en/login/forgetPassword.html">Forgot Password?</a></div>
-    <br>  
     <br>
-    <p id="loginDisplayMessage"></p>
+    <br>
+
+<p id="loginDisplayMessage"></p>
+<a href="" style="text-decoration:none;" type="submit"  class="logoutdelete"  onclick="deleteAllCookies()">LogOut</a>
 </form>
+
+
+
 <form  name="myform" id="loginRegister-register" class="loginRegister-input_group" >
     <input type="text" class="register-input_field" id='firstname' placeholder="First Name" name="firstname" required >
     <input type="text" class="register-input_field" id='lastname' placeholder="Last Name" name="lastname" required>
@@ -45,7 +197,7 @@ data-sly-call = "${clientlib.all @ categories='login-registerComp'}"/>
     <br>
     <br>
     <button type="submit"  class="register-submit_btn" >Register</button>
-
+<p id="registrationDisplayMessage"></p>
     <div id="error"></div>
 </form>
 </div>
@@ -54,7 +206,7 @@ data-sly-call = "${clientlib.all @ categories='login-registerComp'}"/>
     </body>
 
     <script>
-var x = document.getElementById("loginRegister-login");
+     var x = document.getElementById("loginRegister-login");
     var y = document.getElementById("loginRegister-register");
     var z = document.getElementById("btn");
 
@@ -64,22 +216,31 @@ var x = document.getElementById("loginRegister-login");
         z.style.left = "110px";
     }
 
-    function login(){
+function login(){
         x.style.left = "50px";
         y.style.left = "450px";
         z.style.left = "0";
     }
 
 
- function clicked(){
-    console.log("Function Clicked");
-    var cookieValue = escape(document.myloginform.email1.value+";");
+function clicked(){
+     console.log("Function Clicked");
+    var cookieValue = escape(document.myloginform.email1.value);
     var now = new Date();
     now.setMonth(now.getMonth()+1);
-    document.cookie = "email = " + cookieValue;
-    document.cookie = "expires = " + now.toUTCString()+";";
+    document.cookie = "email = " + cookieValue+"; path=/" ;
+
 }
 
+function deleteAllCookies() {
+    var cookies = document.cookie.split(";"); 
+    for (var i = 0; i < cookies.length; i++) { 
+    var cookie = cookies[i]; 
+    var eqPos = cookie.indexOf("="); 
+    var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie; 
+    document.cookie = name + "= ; path=/"; 
+    }
+}
 let ans=undefined;
 async function get(){
         try{
@@ -130,12 +291,15 @@ $.ajax({
 
         },    
         success : function(data, textStatus, jqXHR) {
-alert(firstname);
+                alert(data);
+
+
+
         },    
         error : function(XMLHttpRequest, textStatus, errorThrown) {        
-
-}
-
+alert(data);
+document.getElementById("alert").innerHTML=errorThrown;
+        }
         });
 
 });
@@ -154,16 +318,21 @@ $.ajax({
 
         },    
         success : function(data, textStatus, jqXHR) {
+                alert(data);
 
         $('#loginDisplayMessage').text(data);
 
 
         },    
-        error : function(XMLHttpRequest, textStatus, errorThrown) {        
+        error : function(XMLHttpRequest, textStatus, errorThrown) {   
+                alert(data);
 
         }
         });
         });
+
+
+
 
 if(document.getElementById("alert").innerHTML){
 console.log("error "+document.getElementById("alert").innerHTML);

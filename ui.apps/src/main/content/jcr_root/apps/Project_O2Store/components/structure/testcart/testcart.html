@@ -1,0 +1,152 @@
+<sly data-sly-use.obj="com.mindtree.Project_O2Store.core.models.DetailsModel"/>
+
+<style>
+*{
+    margin : 0;
+    padding : 0;
+    align:center;
+}
+
+.cartalign-hero{
+    height : 100%;
+    width : 100%;
+    background-color:grey;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.alignment{
+padding : 10px 10px 10px 410px;
+color:white;
+}
+
+#totalprice-attribute{
+padding : 0px 0px 0px 50px;
+}
+
+ #totalprice-submit_btn{
+
+    width: 50%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #20BF55, #20BF55);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+#submitButton{
+padding : 0px 690px 0px 0px;
+text-align:center;
+}
+
+#confirmordersubmitButton{
+padding : 0px 630px 0px 0px;
+text-align:center;
+}
+
+.allcartclear{
+    width: 60%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #20BF55, #20BF55);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+</style>
+
+<div class="cartalign-hero">
+<div class="alignment" >
+<u><h2>Order Details</h2></u>
+<sly data-sly-repeat="${obj.getDetails}"></sly>
+<br>
+<ul data-sly-list="${obj.getDetails}">
+<br>
+
+Product Id : ${item.getId}<br>
+Product Name : ${item.getName}<br>
+Product Price : ${item.getPrice}<br>
+Product Quantity : ${item.getCount}<br>
+</ul>
+<br>
+<h2 id="totalprice-attribute">Total Price is : ${obj.getTotal}</h2>
+<br>
+<br>
+<div id="confirmordersubmitButton">
+<button type button data-id="${item.getId}" data-name="${item.getName}" data-price="${item.getPrice}" data-count="${item.getCount}"  class="allcartclear btn btn-danger" >Confirm Order</button>
+</div>
+<br>
+<button   class="forget"  onclick="getCookie(name)" ></button>
+<br>
+<div id="submitButton">
+ <a href="/content/Project_O2Store/language-master/en/login/BillingPage.html" style="text-decoration:none;" id="totalprice-submit_btn"  >Checkout</a>
+ </div>
+</div>
+</div>
+<br>
+
+<script>
+
+
+
+function getCookie(name) {
+console.log("inside the function");
+  var name1 = name + "=";
+  var ca = document.cookie.split(';');
+
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name1) == 0) {
+      return c.substring(name1.length, c.length);
+    }
+  }
+  var result = c.substring(c.indexOf("=")+1,c.length);
+
+  return result;
+
+}
+
+
+$('.allcartclear').click(function (event) {
+            event.preventDefault();
+    var customerId=getCookie(name);
+         console.log(customerId);
+     
+
+
+$.ajax({
+    type : "POST",    
+        url : '/bin/Cart/CartDelete',    
+        data : { 
+        customerId:customerId,
+
+
+
+        },    
+        success : function(data, textStatus, jqXHR) {
+
+        alert(customerId);
+
+        },    
+        error : function(XMLHttpRequest, textStatus, errorThrown) {        
+
+        }
+        });
+        });
+
+
+
+
+</script>
