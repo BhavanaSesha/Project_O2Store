@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Implementation-Title: Project_O2Store - UI apps
+Content-Package-Roots: /apps/Project_O2Store,/etc/packages/adobe/cq60/
+ core.wcm.components.all-2.5.0.zip,/etc/packages/adobe/cq60/core.wcm.c
+ omponents.examples-2.5.0.zip
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: M1062261
+Implementation-Vendor-Id: com.mindtree
+Import-Package: com.adobe.cq.sightly;version="[3.2.0,4.0.0)",org.apach
+ e.sling.api;version="[2.3.3,3.0.0)",org.apache.sling.scripting.sightl
+ y.pojo;version="[1.0.1,2.0.0)"
+Content-Package-Type: mixed
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_151
+Content-Package-Description: UI apps package for Project_O2Store
+Content-Package-Id: Project_O2Store:Project_O2Store.ui.apps:1.0-SNAPSH
+ OT
+
