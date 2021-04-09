@@ -2,15 +2,15 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="47867c65-8b77-47cb-87a6-cf2abed815be">
+    jcr:uuid="2083ed2d-31a4-4d94-a63e-b8409b9b6848">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-05T18:00:17.599+05:30"
+        jcr:lastModified="{Date}2021-04-09T20:21:28.299+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-05T18:00:13.511+05:30"
+            dam:extracted="{Date}2021-04-09T20:21:26.207+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"

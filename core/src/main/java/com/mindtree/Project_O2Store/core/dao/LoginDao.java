@@ -16,8 +16,8 @@ public class LoginDao {
 
 		Class.forName("com.mysql.cj.jdbc.Driver");
 
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/o2store_project", "root",
-				"Bhavana@1");
+		try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/o2store2", "root",
+				"Amalapuram@9");
 
 
 		    Statement st = connection.createStatement();) {

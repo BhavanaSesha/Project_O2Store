@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:allowedTemplates="[/conf/Project_O2Store/settings/wcm/templates/.*,/conf/Project_O2Store/Project_O2StoreTemplates/settings/wcm/templates/o2projecttemplate]"
+        cq:allowedTemplates="[/conf/Project_O2Store/settings/wcm/templates/.*,/conf/Project_O2Store/Project_O2StoreTemplates/settings/wcm/templates/.*]"
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-04-05T12:23:57.501+05:30"
+        cq:lastModified="{Date}2021-04-05T14:48:52.066+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-04-06T16:23:38.202+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Project_O2Store"
+        jcr:uuid="69593b3e-a22a-42fb-89c3-3a28bca4e2f3"
         sling:redirect="true"
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
@@ -18,4 +24,5 @@
     </jcr:content>
     <en/>
     <fr/>
+    <language-master/>
 </jcr:root>

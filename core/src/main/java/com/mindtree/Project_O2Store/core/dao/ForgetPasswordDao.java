@@ -13,7 +13,7 @@ public class ForgetPasswordDao {
 	public boolean forgetPassword(ForgetPassword forget) throws ClassNotFoundException {
 		boolean status = false;
 		boolean statusAssigned = false;
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/o2store2", "root",
 				"Amalapuram@9"); 
 			Statement st = connection.createStatement();) {

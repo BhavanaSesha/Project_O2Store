@@ -16,7 +16,7 @@ public class CreditCardDao {
 
         int result = 0;
 
-        Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");
 
         try (Connection connection = DriverManager
             .getConnection("jdbc:mysql://localhost:3306/o2store2", "root", "Amalapuram@9");

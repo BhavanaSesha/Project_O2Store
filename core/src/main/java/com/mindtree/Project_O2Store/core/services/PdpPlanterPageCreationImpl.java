@@ -57,7 +57,7 @@ public class PdpPlanterPageCreationImpl implements PdpPlanterPageCreation{
 			logger.info("in Activate Method at 6:00");
 			resourceResolver = resolverFactory.getServiceResourceResolver(param);
 			// creating a resource
-			Resource pageResource = resourceResolver.getResource("/content/Project_O2Store/en/planters");
+			Resource pageResource = resourceResolver.getResource("/content/Project_O2Store/language-master/en/planters");
 			if(pageResource == null) {
 				logger.info("resource is null at 6:00");
 				return;

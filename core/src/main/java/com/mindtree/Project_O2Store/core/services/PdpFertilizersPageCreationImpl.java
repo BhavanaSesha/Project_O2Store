@@ -56,7 +56,7 @@ public class PdpFertilizersPageCreationImpl implements PdpFertilizersPageCreatio
 			logger.info("in Activate Method at 6:00");
 			resourceResolver = resolverFactory.getServiceResourceResolver(param);
 			// creating a resource
-			Resource pageResource = resourceResolver.getResource("/content/Project_O2Store/en/fertilizers");
+			Resource pageResource = resourceResolver.getResource("/content/Project_O2Store/language-master/en/fertilizers");
 			logger.info("after resource resolver");
 			if(pageResource == null) {
 				logger.info("resource is null at 6:00");

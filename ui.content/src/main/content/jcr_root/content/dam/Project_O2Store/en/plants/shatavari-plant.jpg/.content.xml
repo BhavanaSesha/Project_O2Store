@@ -2,28 +2,28 @@
 <jcr:root xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="890c2e26-61c6-4faf-9d9e-800e21301bd5">
+    jcr:uuid="ec3a18d5-6bc9-496d-972f-5fe749c6c8f2">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-05T18:00:29.562+05:30"
+        jcr:lastModified="{Date}2021-04-09T20:22:04.940+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20210215"
             dam:DigitalCreationTime="150231+0530"
-            dam:extracted="{Date}2021-04-05T18:00:24.267+05:30"
+            dam:extracted="{Date}2021-04-09T20:22:01.637+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
             dam:Numberoftextualcomments="{Long}0"
             dam:Physicalheightindpi="{Long}72"
-            dam:Physicalheightininches="{Decimal}3.097222328186035"
+            dam:Physicalheightininches="{Decimal}8.333333015441895"
             dam:Physicalwidthindpi="{Long}72"
-            dam:Physicalwidthininches="{Decimal}3.097222328186035"
+            dam:Physicalwidthininches="{Decimal}8.333333015441895"
             dam:Progressive="no"
-            dam:sha1="a31e7cf9a00210706056025bb3f3627a7275d138"
-            dam:size="{Long}16397"
+            dam:sha1="2eb4a9fa9d76f432a47be733b2c930e797d792db"
+            dam:size="{Long}57725"
             dam:TimeCreated="150231+0530"
             dc:date="{Long}[20210215]"
             dc:date_xmpArrayType="rdf:Bag"
@@ -31,8 +31,8 @@
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:DateCreated="{Date}2021-02-15T15:02:31.000+05:30"
-            tiff:ImageLength="{Long}223"
-            tiff:ImageWidth="{Long}223"
+            tiff:ImageLength="{Long}600"
+            tiff:ImageWidth="{Long}600"
             xmp:CreateDate="{Date}2021-02-15T15:02:31.000+05:30"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

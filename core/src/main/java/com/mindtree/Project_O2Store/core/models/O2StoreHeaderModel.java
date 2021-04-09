@@ -34,7 +34,7 @@ public class O2StoreHeaderModel {
 		PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
 		Page currentPage = pageManager.getContainingPage(currentResource);
 
-		rootPage = currentPage.getAbsoluteParent(2);
+		rootPage = currentPage.getAbsoluteParent(3);
 
 		if (rootPage == null) {
 			rootPage = currentPage;
