@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="0901d13f-81ca-483c-affe-2ec0be60a9e3">
+    <jcr:content
+        cq:name="p18.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/homepage"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2021-04-10T19:18:38.239+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2021-04-10T19:18:38.097+05:30"
+            dam:sha1="7c48efd101d379e835d4452d51f86b3d7f11f27c"
+            dam:size="{Long}65218"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-10T19:18:36.791+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:18:36.791+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

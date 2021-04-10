@@ -51,7 +51,7 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                       src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                       src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
 
 
@@ -77,20 +77,21 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj1.getMedicinalPlants}" >
+                <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                           <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                           <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -105,20 +106,22 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj1.getFoilagePlants}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -135,21 +138,23 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj1.getFloweringPlants}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                      src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                      src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                           <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                           <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -164,21 +169,23 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getRange1Plants}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                        <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                           <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                           <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -193,20 +200,22 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getRange2Plants}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -221,20 +230,22 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getMedAndRange1}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -249,20 +260,22 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getMedAndRange2}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -277,20 +290,22 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getMedAndRange3}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -305,20 +320,22 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getFlowAndRange1}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -333,20 +350,22 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getFlowAndRange2}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -361,20 +380,22 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getFlowAndRange3}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -389,20 +410,22 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getFoilAndRange1}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -417,20 +440,22 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getFoilAndRange2}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -445,20 +470,22 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getFoilAndRange3}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -473,21 +500,23 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
 
             <div class="col" style="padding:20px;" data-sly-repeat="${obj2.getRange3Plants}" >
+                 <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/plants/plant-images/${item.getProductName}.jpg"
+                        src="/content/dam/Project_O2Store/en/plants/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
                     <div class="card-body">
                        <h5 class="card-title">₹ ${item.getPrice}</h5>
-                    <a href="${item.getPdpLink}" style="text-decoration:none;">
-                        <p class="card-text" align="center">${item.getProductDisplayName}</p></a>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-primary">QuickShop</button>
 
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-primary">Add to cart</button>
+                        <p class="card-text" align="center">${item.getProductDisplayName}</p>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
+
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
 
 
                     </div>
                 </div>
+                </a>
             </div>
 
 
@@ -495,6 +524,34 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
     </div>
 	</div>
+    <script>
+$('.quickshop').click(function (event) {
+event.preventDefault();
+var id = $(this).data('id');
+var name = $(this).data('name');
+var price = Number($(this).data('price'));
+$.ajax({
+type : "POST",
+url : '/bin/Quickshop/QuickshopServlet',
+data : {
+id:id,
+name:name,
+price:price
+
+},
+success : function(data, textStatus, jqXHR) {
+
+ window.location = "login/quickbuy.html";
+
+},
+error : function(XMLHttpRequest, textStatus, errorThrown) {
+
+
+
+}
+});
+});
+</script>
 </body>
 
 </html>

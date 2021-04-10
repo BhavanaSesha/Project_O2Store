@@ -6,6 +6,7 @@ data-sly-call = "${clientlib.all @ categories='debitcardcomp'}"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>     
 <body>
+<sly data-sly-include="/apps/Project_O2Store/components/structure/O2-Header/O2-Header.html"/>
 
 <div class="wrapper">
   <div class="container">
@@ -40,11 +41,11 @@ data-sly-call = "${clientlib.all @ categories='debitcardcomp'}"/>
     </div>
     
     <div class="btn">
-        <a href="/content/Project_O2Store/en/login/orderPlaced.html" style="text-decoration:none;" class="debitcardbutton" >proceed</a></div>
-    
+        <a href="/content/Project_O2Store/language-master/en/login/orderPlaced.html" style="text-decoration:none;" class="debitcardbutton" >proceed</a></div>
+
   </div>
 </div>
-
+<sly data-sly-include="/apps/Project_O2Store/components/structure/o2-footer/o2-footer.html"/>            
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js"></script>
     <script>

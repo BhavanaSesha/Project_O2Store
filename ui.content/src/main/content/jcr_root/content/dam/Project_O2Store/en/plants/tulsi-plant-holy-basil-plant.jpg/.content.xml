@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="205d9a91-4eaa-4a24-ae41-20d11ec10962">
     <jcr:content
+        cq:name="tulsi-plant-holy-basil-plant.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:22:12.991+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:18:08.060+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:22:08.558+05:30"
+            dam:extracted="{Date}2021-04-10T19:18:00.901+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="16457230471792f17cde42701f172d0e0d906657"
-            dam:size="{Long}30519"
+            dam:sha1="5030d79b0704ab8b69f76dc7129332dbac023f7a"
+            dam:size="{Long}33486"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:40.917+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:18:06.085+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

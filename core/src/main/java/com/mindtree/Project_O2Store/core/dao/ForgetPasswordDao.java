@@ -14,7 +14,7 @@ public class ForgetPasswordDao {
 		boolean status = false;
 		boolean statusAssigned = false;
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/o2store2", "root",
+		try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/o2store", "root",
 				"Amalapuram@9"); 
 			Statement st = connection.createStatement();) {
 			ResultSet rs = st.executeQuery("select email from login_Registration");

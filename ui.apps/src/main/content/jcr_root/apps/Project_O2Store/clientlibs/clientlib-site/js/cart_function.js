@@ -22,7 +22,7 @@
                                                     c = c.substring(1);
                                                 }
                                                 if (c.indexOf(customername) == 0) {
-                                                    customerId = c.substring(customername.length, c.length-3);
+                                                    customerId = c.substring(customername.length, c.length);
                                                     status = 1;
                                                 }
                                             }

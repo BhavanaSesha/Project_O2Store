@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="63fa3719-cda7-4d2a-b13d-158b30e12af6">
     <jcr:content
+        cq:name="calla-lily-pink-plant.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:21:25.963+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:17:02.670+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:21:25.420+05:30"
+            dam:extracted="{Date}2021-04-10T19:17:00.770+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}8.333333015441895"
             dam:Progressive="yes"
-            dam:sha1="53aa225e13a9abb7ccdf5bffbf4883936b7eaaa2"
-            dam:size="{Long}54021"
+            dam:sha1="b911a8ce5d05179d8a0b9caa3eb039e4decfe02c"
+            dam:size="{Long}57014"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:29.570+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:16:56.848+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

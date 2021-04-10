@@ -8,7 +8,6 @@
 .paymentoptions-hero{
     height : 100%;
     width : 100%;
-    background-image : linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/content/dam/Project_O2Store/en/paymentoptions/plant.jpg");
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -114,6 +113,8 @@
 </style>
 
 <body>
+<sly data-sly-include="/apps/Project_O2Store/components/structure/O2-Header/O2-Header.html"/>
+
 <div class="paymentoptions-hero">
 <div class="paymentoptions-box">
 <div class="paymentoptions-button_box">
@@ -122,20 +123,22 @@
 </div>
 <form name="paymentoptions" id="paymentoptions-login" class="paymentoptions-input_group" >
     <div class="common">
-    <a href="/content/Project_O2Store/en/login/CreditCard.html" style="text-decoration:none;" class="creditcard-input_field" id="creditcard"  name="creditcard" required>  Credit Card</a>
+    <a href="/content/Project_O2Store/language-master/en/login/CreditCard.html" style="text-decoration:none;" class="creditcard-input_field" id="creditcard"  name="creditcard" required>  Credit Card</a>
     </div>
     <br>
     <br>
     <div class="common">
-    <a href="/content/Project_O2Store/en/login/DebitCard.html" style="text-decoration:none;" class="debitcard-input_field" id="debitcard"  name="debitcard" required>  Debit Card</a>
+    <a href="/content/Project_O2Store/language-master/en/login/DebitCard.html" style="text-decoration:none;" class="debitcard-input_field" id="debitcard"  name="debitcard" required>  Debit Card</a>
     </div>
     <br>
     <br>
     <div class="common">
-    <a href="/content/Project_O2Store/en/login/orderPlaced.html" style="text-decoration:none;" class="payondelivery-input_field" id="payondelivery"  name="payondelivery" required>  Pay on Delivery</a>
+    <a href="/content/Project_O2Store/language-master/en/login/orderPlaced.html" style="text-decoration:none;" class="payondelivery-input_field" id="payondelivery"  name="payondelivery" required>  Pay on Delivery</a>
     </div>
 </form>
 </div>
 </div>
 </div>
+<div style="margin-top:700px;">
+<sly data-sly-include="/apps/Project_O2Store/components/structure/o2-footer/o2-footer.html"/>            
     </body>

@@ -9,7 +9,6 @@
 }
 
 body{
-   background-image : linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/content/dam/Project_O2Store/en/debitcard/plant.jpg");
   background-size: cover;
   width: 100%;
   height: 100vh;

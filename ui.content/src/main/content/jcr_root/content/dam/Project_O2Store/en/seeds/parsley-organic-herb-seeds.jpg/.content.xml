@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="3b5369e3-ded3-4eac-bc1b-b32d61fe1d71">
     <jcr:content
+        cq:name="parsley-organic-herb-seeds.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/seeds"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:23:44.382+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:18:23.225+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:23:43.981+05:30"
+            dam:extracted="{Date}2021-04-10T19:18:12.539+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="563f0247358077920c1ac636078b20f250b70dc2"
-            dam:size="{Long}53549"
+            dam:sha1="d726963e36489daceaa55c21f84e945705eeff2a"
+            dam:size="{Long}56516"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:51.469+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:18:22.496+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

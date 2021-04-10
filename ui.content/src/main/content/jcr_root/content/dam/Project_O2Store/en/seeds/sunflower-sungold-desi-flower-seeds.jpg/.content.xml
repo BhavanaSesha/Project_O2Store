@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="4710184a-3c74-4813-a6b4-63a074850b85">
     <jcr:content
+        cq:name="sunflower-sungold-desi-flower-seeds.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/seeds"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:23:45.481+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:18:17.528+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:23:45.014+05:30"
+            dam:extracted="{Date}2021-04-10T19:18:15.658+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="9c46623f784b4f02a2ea3a9a00b2c92e3be70521"
-            dam:size="{Long}61481"
+            dam:sha1="8edd8dfd8c9c53ccd9354df46dd69be4d7a8f23d"
+            dam:size="{Long}64448"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:47.789+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:17:25.436+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

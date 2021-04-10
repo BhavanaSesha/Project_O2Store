@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="f247760e-8db1-436d-9140-505ed87a8a35">
     <jcr:content
+        cq:name="6-inch-15-cm-round-coir-basket-stand-orange.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/planters"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:20:13.074+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:16:37.156+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:20:11.877+05:30"
+            dam:extracted="{Date}2021-04-10T19:16:24.340+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="f1563b968f8d6271cccc6d986a7eb25d2f0b9680"
-            dam:size="{Long}33500"
+            dam:sha1="fede670530284ae09b6e0214b646042a89f75826"
+            dam:size="{Long}36467"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:33.096+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:16:26.580+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

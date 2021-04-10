@@ -2,10 +2,10 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>Project_O2Store - UI apps</comment>
-<entry key="createdBy">M1062261</entry>
+<entry key="createdBy">M1062275</entry>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">Project_O2Store.ui.apps</entry>
-<entry key="created">2021-04-09T21:37:08.634+05:30</entry>
+<entry key="created">2021-04-10T19:25:42.138+05:30</entry>
 <entry key="groupId">com.mindtree</entry>
 <entry key="version">1.0-SNAPSHOT</entry>
 <entry key="packageType">mixed</entry>

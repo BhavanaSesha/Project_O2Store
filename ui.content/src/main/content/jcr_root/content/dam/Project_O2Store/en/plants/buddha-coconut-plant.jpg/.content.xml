@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="ff3da2c2-878e-48d7-8d7a-bd4ed2ed5daf">
     <jcr:content
+        cq:name="buddha-coconut-plant.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:21:25.245+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:16:56.918+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:21:24.748+05:30"
+            dam:extracted="{Date}2021-04-10T19:16:50.571+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}8.333333015441895"
             dam:Progressive="yes"
-            dam:sha1="293ecf55ab0a273370d28a76020129fe875d4b0c"
-            dam:size="{Long}64095"
+            dam:sha1="33d69f235063570ca32ff1f69ab26633104f5b15"
+            dam:size="{Long}67088"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:29.466+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:16:56.092+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

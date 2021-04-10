@@ -10,11 +10,18 @@ import java.util.List;
 
 import com.mindtree.Project_O2Store.core.entity.Cart;
 
-
-
 public class CartDB {
 	
-	   public boolean insertData(List<Cart> carts,String custId) {
+	public static void main(String[] args) {
+		List<Cart> ls=new ArrayList<>();
+		//ls=new CartDB().fetchData("chsdpavan@gmail.com");
+		//System.out.println(ls);
+		Cart obj=new Cart(1,"aloe vera",150,2);
+		ls.add(obj);
+		insertData(ls,"chsdteja@gmail.com");
+	}
+	 
+	      public static boolean insertData(List<Cart> carts,String custId) {
 	       Connection connection;
 	       Statement statement;
 	       Statement stmt1;

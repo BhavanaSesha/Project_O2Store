@@ -50,16 +50,46 @@ data-sly-call="${clientlib.js @ categories='Project_O2Store.site'}"/>
              </p>
            <!--  <a href="#" class="cmp_o2pdp_cart-btn">Add to cart</a> -->
             <button type="button" style="margin-left:15px;" data-name="${properties.title}" data-price="${properties.price}" data-id="${properties.plantid}" class="add-to-cart cmp_o2pdp_cart-btn">Add to cart</button>
+            <button type="button" style="margin-left:15px;" data-name="${properties.title}" data-price="${properties.price}" data-id="${properties.plantid}" class="quickshop cmp_o2pdp_cart-btn">Quick Shop</button>
+
 
          </div>
          <div class="offer">
            <p style="margin-left: 5px;">Today's Offer</p>
             <ul>
                 <li>${properties.offer1}</li>
-                <li>${properties.offer2} | ${properties.plantid}</li>
+                <li>${properties.offer2}</li>
             </ul>
         </div>
        </div>
       </main>
+      <script>
+$('.quickshop').click(function (event) {
+event.preventDefault();
+var id = $(this).data('id');
+var name = $(this).data('name');
+var price = Number($(this).data('price'));
+$.ajax({
+type : "POST",
+url : '/bin/Quickshop/QuickshopServlet',
+data : {
+id:id,
+name:name,
+price:price
+
+},
+success : function(data, textStatus, jqXHR) {
+
+ window.location = "/content/Project_O2Store/language-master/en/login/quickbuy.html";
+
+},
+error : function(XMLHttpRequest, textStatus, errorThrown) {
+
+
+
+}
+});
+});
+</script>
    </body>
 </html>

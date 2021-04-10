@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="6c321f3b-b2a8-4cee-8c21-e7343e755d1e">
     <jcr:content
+        cq:name="dieffenbachia-maculata-plant.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:21:30.367+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:17:02.597+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:21:29.604+05:30"
+            dam:extracted="{Date}2021-04-10T19:17:02.053+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="b4862a8872771cc5688a28da7b6c6e12563db2de"
-            dam:size="{Long}35847"
+            dam:sha1="2dcfdf0661ee33a85e7f3f4432e2882c48cefb44"
+            dam:size="{Long}38814"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:35.222+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:16:50.606+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

@@ -63,6 +63,7 @@ text-align:center;
 }
 
 </style>
+<sly data-sly-include="/apps/Project_O2Store/components/structure/O2-Header/O2-Header.html"/>
 
 <div class="cartalign-hero">
 <div class="alignment" >
@@ -74,8 +75,8 @@ text-align:center;
 
 Product Id : ${item.getId}<br>
 Product Name : ${item.getName}<br>
-Product Price : ${item.getPrice}<br>
-Product Quantity : ${item.getCount}<br>
+Product Quantity : ${item.getPrice}<br>
+Product Price : ${item.getCount}<br>
 </ul>
 <br>
 <h2 id="totalprice-attribute">Total Price is : ${obj.getTotal}</h2>
@@ -93,7 +94,8 @@ Product Quantity : ${item.getCount}<br>
 </div>
 </div>
 <br>
-
+<div style="margin-top:700px;">
+<sly data-sly-include="/apps/Project_O2Store/components/structure/o2-footer/o2-footer.html"/>            
 <script>
 
 

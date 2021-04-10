@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="62a86e84-2ae4-4256-bc36-852c165fc61c">
     <jcr:content
+        cq:name="euphorbia-red-succulent-plant.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:21:31.612+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:16:55.753+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:21:31.095+05:30"
+            dam:extracted="{Date}2021-04-10T19:16:52.141+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="57c88a8f39d822f1b7488e7b82591e4b2de168e0"
-            dam:size="{Long}49584"
+            dam:sha1="e4f3e61b496a439d0cb2cbe3aa209294493cba25"
+            dam:size="{Long}52551"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:24.806+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:16:55.292+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

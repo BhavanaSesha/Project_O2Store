@@ -19,7 +19,7 @@ public class CreditCardDao {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         try (Connection connection = DriverManager
-            .getConnection("jdbc:mysql://localhost:3306/o2store2", "root", "Amalapuram@9");
+            .getConnection("jdbc:mysql://localhost:3306/o2store", "root", "Amalapuram@9");
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL)) {
             preparedStatement.setString(1, creditcard.getCardnumber());

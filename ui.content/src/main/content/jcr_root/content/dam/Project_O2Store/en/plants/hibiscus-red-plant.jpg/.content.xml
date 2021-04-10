@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="4d7d2540-e7e7-41c5-bffb-fac1a0204229">
     <jcr:content
+        cq:name="hibiscus-red-plant.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:21:34.382+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:18:20.138+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:21:32.831+05:30"
+            dam:extracted="{Date}2021-04-10T19:17:57.820+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}8.333333015441895"
             dam:Progressive="no"
-            dam:sha1="27a3aef442721f55f7ab3f65eae9d985b66c7734"
-            dam:size="{Long}53090"
+            dam:sha1="63edbe11f7669d59f9e42baa02d1bd6fc2f5a8e9"
+            dam:size="{Long}56036"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:50.100+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:18:19.152+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

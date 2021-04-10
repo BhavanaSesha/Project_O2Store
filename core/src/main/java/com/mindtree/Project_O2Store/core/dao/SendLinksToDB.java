@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 
 public class SendLinksToDB {
-	private static String URL="jdbc:mysql://localhost:3306/o2store2";
+	private static String URL="jdbc:mysql://localhost:3306/o2store";
 	private static String USERNAME="root";
 	private static String PASSWORD="Amalapuram@9";
 

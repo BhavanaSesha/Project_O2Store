@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="79feae18-a96e-41f2-b8e3-a63aa63d4c6d">
     <jcr:content
+        cq:name="3-7-inch-9-cm-cp036-round-egg-ceramic-pot.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/planters"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:19:57.298+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:16:39.148+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:19:55.498+05:30"
+            dam:extracted="{Date}2021-04-10T19:16:38.744+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="43d385f007ed8a2257b6dfe2bdbc1711575a32a6"
-            dam:size="{Long}16718"
+            dam:sha1="25ea0b607c55ce20539e3d767c0ed392c565a16a"
+            dam:size="{Long}19685"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:16.705+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:16:29.593+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

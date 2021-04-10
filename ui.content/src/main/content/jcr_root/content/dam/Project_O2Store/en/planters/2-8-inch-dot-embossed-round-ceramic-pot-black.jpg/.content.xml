@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="410a4015-3f18-4402-a990-2c155c89d921">
     <jcr:content
+        cq:name="2-8-inch-dot-embossed-round-ceramic-pot-black.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/planters"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:19:52.374+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:16:43.039+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:19:51.944+05:30"
+            dam:extracted="{Date}2021-04-10T19:16:42.481+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="c642c9284eb41abfc3064c3530293d0ecee1adc3"
-            dam:size="{Long}27585"
+            dam:sha1="40bb6a96ec21ee36a28073ffe58ffd14d0400071"
+            dam:size="{Long}30552"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:07.411+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:16:25.377+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

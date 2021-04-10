@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    alert("invoked");
+    //alert("invoked");
     	$("#medicinal").hide();
         $("#foilage").hide();
         $("#flowering").hide();

@@ -32,9 +32,9 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
             <a href="${item.getPdpLink}" style="text-decoration:none;color:black;">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" width="200" height="275" style="border-radius:30px;"
-                        src="/content/dam/Project_O2Store/en/fertilizers/fertilizer-images/${item.getProductName}.jpg"
+                       src="/content/dam/Project_O2Store/en/fertilizers/${item.getProductName}.jpg/jcr:content/renditions/cq5dam.web.200.275.jpeg"
                         alt="Card image cap">
-                    <div class="card-body">
+                      <div class="card-body">
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
 
                         <p class="card-text" align="center">${item.getProductDisplayName}</p>
@@ -50,6 +50,33 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
 
         </div>
 	</div>
-</body>
+<script>
+$('.quickshop').click(function (event) {
+event.preventDefault();
+var id = $(this).data('id');
+var name = $(this).data('name');
+var price = Number($(this).data('price'));
+$.ajax({
+type : "POST",
+url : '/bin/Quickshop/QuickshopServlet',
+data : {
+id:id,
+name:name,
+price:price
 
+},
+success : function(data, textStatus, jqXHR) {
+
+ window.location = "login/quickbuy.html";
+
+},
+error : function(XMLHttpRequest, textStatus, errorThrown) {
+
+
+
+}
+});
+});
+</script>
+</body>
 </html>

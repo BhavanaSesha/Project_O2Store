@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="52b024df-db0b-44be-999e-d0ffc39044a3">
     <jcr:content
+        cq:name="5-inch-13-cm-eco-friendly-jute-grow-bag-brown.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/planters"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:20:12.776+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:16:41.574+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:20:11.196+05:30"
+            dam:extracted="{Date}2021-04-10T19:16:40.987+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="3f942589b9d0516b965b622b3010b1bf263ef122"
-            dam:size="{Long}17711"
+            dam:sha1="bf004fa809ab1452fba40ed65d16e03a078738f6"
+            dam:size="{Long}20678"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:20.854+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:16:34.674+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

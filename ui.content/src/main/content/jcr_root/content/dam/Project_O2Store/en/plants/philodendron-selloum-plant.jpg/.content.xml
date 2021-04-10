@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="df7ccc19-a9f9-442e-a0a2-3055ecae8148">
     <jcr:content
+        cq:name="philodendron-selloum-plant.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:21:51.944+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:16:35.673+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:21:49.154+05:30"
+            dam:extracted="{Date}2021-04-10T19:16:35.283+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}8.333333015441895"
             dam:Progressive="no"
-            dam:sha1="bdd003e2f5f53eb217c568807e61bf4130d8d304"
-            dam:size="{Long}43815"
+            dam:sha1="9fc3d9378dc1fd8d3d2c99447c7be10a0686572f"
+            dam:size="{Long}46807"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:42.001+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:16:22.784+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

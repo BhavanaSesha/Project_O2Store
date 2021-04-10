@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="33fbfbe0-0c53-4c58-9d16-f361dc38813d">
     <jcr:content
+        cq:name="3-inch-8-cm-handi-shape-round-ceramic-pot-yellow.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/planters"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:19:59.226+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:16:43.459+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:19:57.349+05:30"
+            dam:extracted="{Date}2021-04-10T19:16:34.192+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}8.333333015441895"
             dam:Progressive="no"
-            dam:sha1="adbd044d3c147f910c5b67717e3a1143b3b6c7c2"
-            dam:size="{Long}21070"
+            dam:sha1="e0c2c81c6a30df74e7a80557d0288e9063182bff"
+            dam:size="{Long}24062"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:15.077+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:16:27.340+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

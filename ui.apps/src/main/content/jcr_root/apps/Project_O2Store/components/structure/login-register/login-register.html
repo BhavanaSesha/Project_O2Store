@@ -23,37 +23,39 @@ margin-left:300;
 }
 
 .loginRegister-box{
-    width: 400px;
-    height: 500px;
+    width: 420px;
+    height: 510px;
     position: relative;
-    margin: 6% auto;
+    margin: 5% auto;
     background: #fff;
-    padding: 5px;
+    padding: 10px;
     overflow: hidden;
 }
 
 .loginRegister-button_box{
-    width: 220px;
-    margin: 35px auto;
+    width: 280px;
+    margin: 10px auto;
+    margin-left:35px;
     position: relative;
     box-shadow: 0 0 20px 9px #24ff2f1f;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .loginRegister-toggle_btn{
-    padding: 10px 30px;
+    padding: 15px 25px;
     cursor: pointer;
     background: transparent;
     border: 0;
     outline: none;
     position: relative;
+    margin-left:30px;
 }
 
 #btn{
     top: 0;
     left: 0;
     position: absolute;
-    width: 110px;
+    width: 170px;
     height: 100%;
     background: linear-gradient(to right,  #20BF55, #20BF55);
     border-radius: 30px;
@@ -118,10 +120,11 @@ margin-left:300;
 .logoutdelete{
     text-align:center;
     width: 30%;
-    padding: 10px 30px;
+    padding: 10px 20px;
     cursor: pointer;
     display: block;
     margin: auto;
+    color:black;
     background: linear-gradient(to right, #20BF55, #20BF55);
     border: 0;
     outline: none;
@@ -129,7 +132,7 @@ margin-left:300;
     }
 
 .loginRegister-check_box{
-    margin: 30px 10px 30px 0;
+    margin: 20px 10px 20px 0;
 }
 
 .span{
@@ -144,7 +147,7 @@ margin-left:300;
 }
 
 #loginRegister-register{
-left: 450px;
+       left: 450px;
 }
 
 .forget a{
@@ -154,6 +157,9 @@ left: 450px;
 </style>
 
 <body>
+
+<sly data-sly-include="/apps/Project_O2Store/components/structure/O2-Header/O2-Header.html"/>
+
 
 <div class="loginRegister-hero">
 <div class="loginRegister-box">
@@ -172,13 +178,14 @@ left: 450px;
     <br>
     <br>
     <div class="forget">
-    <a href="/content/Project_O2Store/en/login/forgetPassword.html">Forgot Password?</a></div>
+    <a href="/content/Project_O2Store/language-master/en/login/forgetPassword.html">Forgot Password?</a></div>
     <br>
     <br>
 
 <p id="loginDisplayMessage"></p>
 <a href="" style="text-decoration:none;" type="submit"  class="logoutdelete"  onclick="deleteAllCookies()">LogOut</a>
 </form>
+
 
 
 
@@ -203,7 +210,10 @@ left: 450px;
 </div>
 </div>
 <p id="alert"></p>
-    </body>
+<div style="margin-top:700px;">
+<sly data-sly-include="/apps/Project_O2Store/components/structure/o2-footer/o2-footer.html"/>                                
+</div>
+</body>
 
     <script>
      var x = document.getElementById("loginRegister-login");
@@ -291,9 +301,7 @@ $.ajax({
 
         },    
         success : function(data, textStatus, jqXHR) {
-                alert(data);
-
-
+                //alert(data);
 
         },    
         error : function(XMLHttpRequest, textStatus, errorThrown) {        
@@ -318,11 +326,14 @@ $.ajax({
 
         },    
         success : function(data, textStatus, jqXHR) {
-                alert(data);
-
-        $('#loginDisplayMessage').text(data);
-
-
+                
+                if(data=="You Have Successfully Logged In")
+                {
+                 window.location = "homepage.html";
+                }
+                else if(data=="Failed to login"){
+                    alert(data);
+                     }
         },    
         error : function(XMLHttpRequest, textStatus, errorThrown) {   
                 alert(data);

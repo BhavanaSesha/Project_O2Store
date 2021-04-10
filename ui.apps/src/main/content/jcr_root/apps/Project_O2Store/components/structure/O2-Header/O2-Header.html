@@ -82,7 +82,7 @@ $("#header-cssmenu").menumaker({
 
 
             <nav id='header-cssmenu' class="header-navigation" >
-				 <a href="/content/Project_O2Store/en/homepage.html"  >
+				 <a href="/content/Project_O2Store/language-master/en/homepage.html"  >
 					<div class="cmp_header_title">
 
            				<img src="/content/dam/Project_O2Store/en/images/logo8.jpg" class="cmp_header_logo" alt="logo"/>
@@ -96,7 +96,7 @@ $("#header-cssmenu").menumaker({
 			<ul>
                    <li  data-sly-repeat="${topnav.getRootChildPages}">
                    		<span class="header-submenu-button"></span>
-                        	<sly data-sly-test="${item.title!='HomePage' && item.title!='Login'}">
+                        	<sly data-sly-test="${item.title!='HomePage'}">
                         	<a href="${item.path}.html">${item.title}</a>
                             </sly>
 

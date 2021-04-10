@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="917dff4e-efd1-4448-aa9a-f059d79af9c5">
     <jcr:content
+        cq:name="5-1-inch-13-cm-hanging-round-handmade-wooden-twin-pot-brown.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/planters"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:20:06.887+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:16:37.560+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:20:05.025+05:30"
+            dam:extracted="{Date}2021-04-10T19:16:23.304+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="5074a4fb4802b20239b8892ca3d7c264203d450e"
-            dam:size="{Long}28388"
+            dam:sha1="1c028f6e998927fd6ae85aca12c0433b961616e5"
+            dam:size="{Long}31355"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:28.408+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:16:37.011+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

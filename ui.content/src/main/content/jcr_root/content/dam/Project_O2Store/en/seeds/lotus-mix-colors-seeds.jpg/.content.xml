@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="bf72bd66-11fd-4e4f-b779-9cdd2cf41835">
     <jcr:content
+        cq:name="lotus-mix-colors-seeds.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/seeds"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-09T20:23:43.430+05:30"
+        jcr:lastModified="{Date}2021-04-10T19:18:19.486+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-09T20:23:42.419+05:30"
+            dam:extracted="{Date}2021-04-10T19:18:17.446+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="0c40eda9234d94074ff3280a153c5bbc03a91cd8"
-            dam:size="{Long}34967"
+            dam:sha1="dc20156f0a9076b1459c21fdf27e76c69b950c22"
+            dam:size="{Long}37934"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-09T22:42:49.386+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:18:18.790+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"

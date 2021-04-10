@@ -22,7 +22,7 @@ public class RegistrationDao {
 		
 		Class.forName("com.mysql.cj.jdbc.Driver");
 
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/o2store2", "root",
+		try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/o2store", "root",
 				"Amalapuram@9");
 
 			PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="fa5caa96-ae8d-4c81-ad6e-a7bf38712ae0">
+    <jcr:content
+        cq:name="p13.jpg"
+        cq:parentPath="/content/dam/Project_O2Store/en/homepage"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2021-04-10T19:18:17.640+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2021-04-10T19:18:17.164+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}3.569444417953491"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}4.791666507720947"
+            dam:Progressive="no"
+            dam:sha1="a4154cc5539423e8134b6c4039288c36b18bdb8a"
+            dam:size="{Long}27712"
+            dam:TimeCreated="235229+0530"
+            dc:date="{Long}[20210408]"
+            dc:date_xmpArrayType="rdf:Bag"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2021-04-10T19:17:59.495+05:30"
+            exif:ColorSpace="{Long}1"
+            exif:DateTimeOriginal="{Date}2021-04-08T23:52:29.550+05:30"
+            jcr:lastModified="{Date}2021-04-10T19:17:59.495+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:DateCreated="{Date}2021-04-08T23:52:29.550+05:30"
+            tiff:ImageLength="{Long}257"
+            tiff:ImageWidth="{Long}345"
+            tiff:Orientation="{Long}1"
+            xmp:CreateDate="{Date}2021-04-08T23:52:29.548+05:30"
+            xmp:CreatorTool="Windows Photo Editor 10.0.10011.16384"
+            xmp:ModifyDate="{Date}2021-04-09T00:00:03.000+05:30"
+            xmpMM:InstanceID="uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
