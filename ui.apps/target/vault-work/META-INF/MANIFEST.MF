@@ -4,7 +4,7 @@ Content-Package-Roots: /apps/Project_O2Store,/etc/packages/adobe/cq60/
  core.wcm.components.all-2.5.0.zip,/etc/packages/adobe/cq60/core.wcm.c
  omponents.examples-2.5.0.zip
 Implementation-Version: 1.0-SNAPSHOT
-Built-By: M1062275
+Built-By: M1062166
 Implementation-Vendor-Id: com.mindtree
 Import-Package: com.adobe.cq.sightly;version="[3.2.0,4.0.0)",org.apach
  e.sling.api;version="[2.3.3,3.0.0)",org.apache.sling.scripting.sightl

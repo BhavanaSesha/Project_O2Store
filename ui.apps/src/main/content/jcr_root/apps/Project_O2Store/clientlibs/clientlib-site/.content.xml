@@ -4,5 +4,5 @@
     allowProxy="{Boolean}true"
     categories="[Project_O2Store.site]"
     cssProcessor="[default:none,min:none]"
-    dependencies="[Project_O2Store.dependencies,cq.jquery]"
+    dependencies="[Project_O2Store.dependencies]"
     jsProcessor="[default:none,min:none]"/>

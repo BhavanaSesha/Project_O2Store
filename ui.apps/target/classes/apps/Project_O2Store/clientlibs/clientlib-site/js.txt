@@ -1,4 +1,3 @@
 #base=js
-cookie2.js
-cart_function.js
+
 site.js

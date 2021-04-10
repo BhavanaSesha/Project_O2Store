@@ -248,10 +248,10 @@
 
                     "<td >" + cartArray[i].name + "</td>" +
                     "<td>(" + cartArray[i].price + ")</td>" +
-                    "<td><div class='input-group'><button class='minus-item input-group-addon btn btn-primary' data-name=" + cartArray[i].name + " data-id="+ cartArray[i].id+ ">-</button>" +
+                    "<td><div class='input-group'><button class='minus-item input-group-addon btn ' data-name=" + cartArray[i].name + " data-id="+ cartArray[i].id+ ">-</button>" +
                     "<input type='number' class='item-count form-control' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>" +
-                    "<button class='plus-item btn btn-primary input-group-addon' data-name=" + cartArray[i].name + " data-id="+ cartArray[i].id+ ">+</button></div></td>" +
-                    "<td><button class='delete-item btn btn-danger' data-name=" + cartArray[i].name + "  data-id="+ cartArray[i].id+ ">X</button></td>" +
+                    "<button class='plus-item btn  input-group-addon' data-name=" + cartArray[i].name + " data-id="+ cartArray[i].id+ ">+</button></div></td>" +
+                    "<td><button class='delete-item btn btn-success' data-name=" + cartArray[i].name + "  data-id="+ cartArray[i].id+ ">X</button></td>" +
                     " = " +
                     "<td>" + cartArray[i].total + "</td>" +
                     "</tr>";
