@@ -79,12 +79,10 @@ Product Name : ${obj1.getName}<br><br>
 <br>
 <br>
 <div id="confirmordersubmitButton">
-<button type button data-id="${obj1.getId}" class="quickshop btn btn-danger" >Confirm Order</button>
+<button type button data-id="${obj1.getId}" class="quickshop btn btn-danger" >CheckOut</button>
 </div>
 <br>
-<div id="quickbuysubmitButton">
-<a href="/content/Project_O2Store/language-master/en/login/BillingPage.html" style="text-decoration:none;"   class="order"  >Checkout</a>
-</div>
+
 
 </div>
 </div>
@@ -103,7 +101,7 @@ event.preventDefault();
 
         	},    
         	success : function(data, textStatus, jqXHR) {
-
+            window.location = "/content/Project_O2Store/language-master/en/login/BillingPage.html";
             },
             error : function(XMLHttpRequest, textStatus, errorThrown) {        
 

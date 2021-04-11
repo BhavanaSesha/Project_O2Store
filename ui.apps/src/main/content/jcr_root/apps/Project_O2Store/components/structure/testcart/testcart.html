@@ -1,4 +1,7 @@
-<sly data-sly-use.obj="com.mindtree.Project_O2Store.core.models.DetailsModel"/>
+<sly data-sly-use.obj="com.adobe.aem.guides.maven.core.models.AddToCartModel"/>
+<head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
 
 <style>
 *{
@@ -75,21 +78,20 @@ text-align:center;
 
 Product Id : ${item.getId}<br>
 Product Name : ${item.getName}<br>
-Product Quantity : ${item.getPrice}<br>
-Product Price : ${item.getCount}<br>
+Product Price : ${item.getPrice}<br>
+Product Quantity : ${item.getCount}<br>
 </ul>
 <br>
 <h2 id="totalprice-attribute">Total Price is : ${obj.getTotal}</h2>
 <br>
 <br>
 <div id="confirmordersubmitButton">
-<button type button data-id="${item.getId}" data-name="${item.getName}" data-price="${item.getPrice}" data-count="${item.getCount}"  class="allcartclear btn btn-danger" >Confirm Order</button>
 </div>
 <br>
 <button   class="forget"  onclick="getCookie(name)" ></button>
 <br>
 <div id="submitButton">
- <a href="/content/Project_O2Store/language-master/en/login/BillingPage.html" style="text-decoration:none;" id="totalprice-submit_btn"  >Checkout</a>
+ <a href="/content/Project_O2Store/language-master/en/login/BillingPage.html" style="text-decoration:none;" id="totalprice-submit_btn" class="deletedetails btn btn-danger"  >Checkout</a>
  </div>
 </div>
 </div>
@@ -120,30 +122,22 @@ console.log("inside the function");
 
 }
 
-
-$('.allcartclear').click(function (event) {
+$('.deletedetails').click(function (event) {
             event.preventDefault();
-    var customerId=getCookie(name);
+      var customerId=getCookie(name);
          console.log(customerId);
-     
-
 
 $.ajax({
     type : "POST",    
-        url : '/bin/Cart/CartDelete',    
+        url : '/bin/Cart/CartDataDeleteServlet',    
         data : { 
         customerId:customerId,
-
-
 
         },    
         success : function(data, textStatus, jqXHR) {
 
-        alert(customerId);
-
         },    
         error : function(XMLHttpRequest, textStatus, errorThrown) {        
-
         }
         });
         });
