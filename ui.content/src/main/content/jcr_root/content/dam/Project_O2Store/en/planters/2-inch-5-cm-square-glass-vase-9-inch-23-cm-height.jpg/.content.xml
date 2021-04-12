@@ -8,7 +8,7 @@
         cq:name="2-inch-5-cm-square-glass-vase-9-inch-23-cm-height.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/planters"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:16:44.590+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:37.517+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -27,7 +27,7 @@
             dam:size="{Long}41783"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:15.156+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:16:28.745+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:34.568+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

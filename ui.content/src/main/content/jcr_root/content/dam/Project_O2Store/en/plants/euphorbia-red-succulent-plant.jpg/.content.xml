@@ -8,7 +8,7 @@
         cq:name="euphorbia-red-succulent-plant.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:16:55.753+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:43.478+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -27,7 +27,7 @@
             dam:size="{Long}52551"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:24.806+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:16:55.292+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:38.907+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

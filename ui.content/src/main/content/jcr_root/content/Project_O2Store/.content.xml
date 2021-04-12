@@ -4,7 +4,7 @@
     <jcr:content
         cq:allowedTemplates="[/conf/Project_O2Store/settings/wcm/templates/.*,/conf/Project_O2Store/Project_O2StoreTemplates/settings/wcm/templates/.*]"
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-04-09T22:51:57.316+05:30"
+        cq:lastModified="{Date}2021-04-05T14:48:52.066+05:30"
         cq:lastModifiedBy="admin"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
@@ -19,7 +19,8 @@
             <file/>
         </image>
     </jcr:content>
-    <language-master/>
     <en/>
     <fr/>
+    <language-master/>
+    <robots.txt/>
 </jcr:root>

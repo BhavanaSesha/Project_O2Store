@@ -8,7 +8,7 @@
         cq:name="methi-kasturi-fenugreek-vegetable-seeds.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/seeds"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:18:00.276+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:51.410+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -27,7 +27,7 @@
             dam:size="{Long}53991"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:45.525+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:17:09.057+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:50.965+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

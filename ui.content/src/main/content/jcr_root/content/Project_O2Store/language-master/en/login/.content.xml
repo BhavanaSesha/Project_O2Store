@@ -32,8 +32,8 @@
     <CreditCard/>
     <DebitCard/>
     <forgetPassword/>
-    <orderPlaced/>
     <paymentOption/>
     <quickbuy/>
     <addtocart/>
+    <orderplaced/>
 </jcr:root>

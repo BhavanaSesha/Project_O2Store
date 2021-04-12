@@ -8,7 +8,7 @@
         cq:name="african-marigold-yellow-plant.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:17:04.878+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:45.569+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -28,11 +28,11 @@
             dam:sha1="95241a6a3dfad8d4ec6cc12fef2597ae4b41af2b"
             dam:size="{Long}62488"
             dam:TimeCreated="114321+0530"
-            dc:date="{Long}[20210302,20210302,20210302,20210302,20210302,20210302,20210302]"
+            dc:date="{Long}[20210302,20210302,20210302,20210302,20210302,20210302,20210302,20210302,20210302,20210302,20210302,20210302,20210302,20210302,20210302]"
             dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:32.352+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:17:00.574+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:43.417+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

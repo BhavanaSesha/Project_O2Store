@@ -8,7 +8,7 @@
         cq:name="desert-pride.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/fertilizers"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:16:44.019+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:20.704+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -27,7 +27,7 @@
             dam:size="{Long}28667"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:20.642+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:16:43.417+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:20.308+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

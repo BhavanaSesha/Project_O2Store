@@ -8,7 +8,7 @@
         cq:name="shevanti-red-plant.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:17:01.903+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:53.692+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -27,7 +27,7 @@
             dam:size="{Long}68346"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:44.610+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:16:54.892+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:50.459+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -28,17 +28,57 @@ data-sly-call="${clientlib.js @ categories='o2_cart'}"/>
                     <table class="show-cart table">
 
                     </table>
-                    <div>Total price: Rs<span class="total-cart"></span></div>
+                    <div>Total price: ₹ <span class="total-cart"></span></div>
                 </div>
                 <div class="modal-footer">
-                    <a href="/content/Project_O2Store/language-master/en/login/addtocart.html"><button type="button" class="btn btn-primary">Order now</button></a>
+                    <button type="button" class="allcart btn" style="background-color:#2E8B57; color:white">Order now</button>
                 </div>
             </div>
         </div>
+        <button   class="forget"  onclick="getCookie(name)" ></button>
     </div>
     <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js'></script>
+<script>
 
+function getCookie(name) {
+console.log("inside the function");
+  var name1 = name + "=";
+  var ca = document.cookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name1) == 0) {
+      return c.substring(name1.length, c.length);
+    }
+  }
+  var result = c.substring(c.indexOf("=")+1,c.length);
+  return result;
+}
+
+
+$('.allcart').click(function (event) {
+            event.preventDefault();
+      var customerId=getCookie(name);
+         console.log(customerId);
+
+$.ajax({
+    type : "POST",    
+        url : '/bin/Cart/CookieServlet',    
+        data : { 
+        customerId:customerId
+        },    
+        success : function(data, textStatus, jqXHR) {
+        window.location = "/content/Project_O2Store/language-master/en/login/addtocart.html";
+        },    
+        error : function(XMLHttpRequest, textStatus, errorThrown) {        
+        }
+        });
+        });
+
+</script>
 </body>
 </html>

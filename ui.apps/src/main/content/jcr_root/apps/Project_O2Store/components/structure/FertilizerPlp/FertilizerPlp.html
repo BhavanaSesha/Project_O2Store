@@ -17,6 +17,11 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
     padding-top:20px;
     padding-bottom:20px;
     }
+.btn
+{
+    background-color:#2E8B57;
+    color:white;
+}
     </style>
 </head>
 
@@ -38,8 +43,8 @@ data-sly-call="${clientlib.all @ categories='Project_O2Store.site'}"/>
                         <h5 class="card-title">₹ ${item.getPrice}</h5>
 
                         <p class="card-text" align="center">${item.getProductDisplayName}</p>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn btn-success">QuickShop</button>
-                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn btn-success">Add to cart</button>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="quickshop btn">QuickShop</button>
+                            <button type="button" style="margin-left:15px;" data-name="${item.getProductDisplayName}" data-price="${item.getPrice}" data-id="${item.getProductId}" class="add-to-cart btn">Add to cart</button>
 
 
                     </div>

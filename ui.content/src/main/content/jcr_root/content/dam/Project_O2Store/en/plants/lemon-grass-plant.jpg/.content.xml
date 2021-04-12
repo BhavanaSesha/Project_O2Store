@@ -8,7 +8,7 @@
         cq:name="lemon-grass-plant.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:17:03.752+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:43.758+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -28,11 +28,11 @@
             dam:sha1="768b46455ebdf356f9c5f3a10b0353e1e062fb19"
             dam:size="{Long}43505"
             dam:TimeCreated="161352+0530"
-            dc:date="{Long}[20210212,20210212,20210212,20210212,20210212,20210212,20210212]"
+            dc:date="{Long}[20210212,20210212,20210212,20210212,20210212,20210212,20210212,20210212,20210212,20210212,20210212,20210212,20210212,20210212,20210212]"
             dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:48.693+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:17:00.311+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:42.719+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

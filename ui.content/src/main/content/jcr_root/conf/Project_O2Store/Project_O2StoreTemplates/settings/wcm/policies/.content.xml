@@ -8,12 +8,10 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2021-04-10T10:35:05.505+05:30"
-                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Project_O2Store Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/cq/experience-fragments/editor/components/experiencefragment,group:Project_O2Store,/apps/Project_O2Store/components/form/container]"
+                        components="[group:Project_O2Store,/apps/Project_O2Store/components/form/container]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">

@@ -8,7 +8,7 @@
         cq:name="lotus-mix-colors-seeds.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/seeds"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:18:19.486+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:53.459+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -27,7 +27,7 @@
             dam:size="{Long}37934"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:49.386+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:18:18.790+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:53.143+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

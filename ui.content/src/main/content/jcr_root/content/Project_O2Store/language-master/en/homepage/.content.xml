@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-04-10T19:23:51.892+05:30"
+        cq:lastModified="{Date}2021-04-09T14:09:54.326+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/Project_O2Store/Project_O2StoreTemplates/settings/wcm/templates/pagetemplate"
         jcr:isCheckedOut="{Boolean}true"
@@ -23,19 +23,17 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="Project_O2Store/components/structure/O2-Header"/>
-            <experiencefragment
-                jcr:created="{Date}2021-04-10T11:47:27.823+05:30"
+            <homepagecontent
+                jcr:created="{Date}2021-04-08T14:38:46.347+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-04-10T19:23:51.766+05:30"
+                jcr:lastModified="{Date}2021-04-08T14:38:46.347+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
-                fragmentPath="/content/experience-fragments/project_o2storeexper/home-page-experience-fragment-for-project-o2-store/master"
-                text="Cart × Total price: Rs Order now Seeds The most important seed you can plant is kindness; the most important crop it yields is joy Planters Life is the flower for which love is the honey Fertilizers If you want to be Happy for a lifetime, Be a Garderner Plants How lovely the silence of growing things Shop Now Plants Shop Now Seeds Shop Now Planters Shop Now Fertilizers"/>
+                sling:resourceType="Project_O2Store/components/structure/HomepageContent"/>
             <o2_footer
-                jcr:created="{Date}2021-04-10T11:47:58.772+05:30"
+                jcr:created="{Date}2021-04-08T14:38:53.370+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-04-10T11:47:58.772+05:30"
+                jcr:lastModified="{Date}2021-04-08T14:38:53.370+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="Project_O2Store/components/structure/o2-footer"/>

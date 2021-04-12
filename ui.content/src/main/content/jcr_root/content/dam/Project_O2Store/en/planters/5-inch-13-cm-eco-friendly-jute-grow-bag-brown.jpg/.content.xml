@@ -8,7 +8,7 @@
         cq:name="5-inch-13-cm-eco-friendly-jute-grow-bag-brown.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/planters"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:16:41.574+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:31.516+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -27,7 +27,7 @@
             dam:size="{Long}20678"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:20.854+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:16:34.674+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:21.235+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

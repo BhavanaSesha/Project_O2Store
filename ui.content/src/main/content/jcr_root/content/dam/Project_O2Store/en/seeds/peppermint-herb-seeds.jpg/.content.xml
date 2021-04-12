@@ -8,12 +8,12 @@
         cq:name="peppermint-herb-seeds.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/seeds"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:18:19.614+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:55.679+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-04-10T19:18:18.950+05:30"
+            dam:extracted="{Date}2021-04-09T22:42:50.764+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -27,7 +27,7 @@
             dam:size="{Long}51708"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:49.023+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:18:17.865+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:55.487+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

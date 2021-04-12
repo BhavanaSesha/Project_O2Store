@@ -1,71 +1,240 @@
+
+<sly data-sly-use.obj="com.mindtree.Project_O2Store.core.models.AddToCartModel"/>
+  <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+data-sly-call="${clientlib.js @ categories='Project_O2Store.site'}"/>
+
  <sly data-sly-use.obj1="com.mindtree.Project_O2Store.core.models.QuickPayModel"/>
 
+<html>
+<head>
 <style>
-*{
-    margin : 0;
-    padding : 0;
-    align:center;
+      body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
-.quickbuyalign-hero{
-    height : 100%;
-    width : 100%;
-    background-color:grey;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+  
+  .cmp_o2pdp_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display:flex;
+    
+  }
+
+
+  .cmp_o2pdp_left-column {
+    margin-top:0px;
+    width: 50%;
+    position: relative;
+
+  }
+
+  .cmp_o2pdp_right-column {
+
+    width: 50%;
+    position: relative;
+  }
+
+
+  @import url("https://rsms.me/inter/inter.css");
+
+:root {
+  --color-gray: #737888;
+  --color-lighter-gray: #e3e5ed;
+  --color-light-gray: #f7f7fa;
 }
 
-.quickbuyalignment{
-padding : 10px 10px 10px 410px;
-color:white;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-#price-attribute{
-padding : 0px 0px 0px 50px;
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
 }
 
- .quickshop{
-    width: 60%;
-    padding: 10px 30px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    background: linear-gradient(to right, #20BF55, #20BF55);
-    border: 0;
-    outline: none;
-    border-radius: 30px;
-    font-weight: 600;
+body {
+  margin: 0;
 }
 
-.order{
-    width: 30%;
-    padding: 10px 30px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    background: linear-gradient(to right, #20BF55, #20BF55);
-    border: 0;
-    outline: none;
-    border-radius: 30px;
-    font-weight: 600;
+h1 {
+  margin-bottom: 1rem;
 }
 
-#quickbuysubmitButton{
-padding : 0px 630px 0px 0px;
-text-align:center;
+p {
+  color: var(--color-gray);
 }
 
-#confirmordersubmitButton{
-padding : 0px 630px 0px 0px;
-text-align:center;
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: var(--color-light-gray);
+  border: 0;
+  margin: 2rem 0;
 }
 
+
+
+.form {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #43484D;
+  padding: .5rem;
+  border-radius: .25rem;
+}
+
+.field__label {
+  color: #2E8B57;
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem
+}
+
+.field__input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+.field:focus-within {
+  border-color: #000;
+}
+
+.fields {
+  display: grid;
+  grid-gap: 1rem;
+}
+.fields--2 {
+  grid-template-columns: 1fr 1fr;
+}
+.fields--3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button {
+  background-color: #2E8B57;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: block;
+  color: #fff;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+}
+#price
+{
+    margin-left:38px; 
+    margin-top:20px; 
+    color: white;
+    padding:20px;
+    background-color:#2E8B57;
+    width:74%;
+    border-radius:5px;
+    text-align:center;
+}
+.button1 {
+  border-radius: 4px;
+  color:white;
+  background-color: #2E8B57;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.highlight{     
+ font-weight:bold;
+ background-color:black;
+}
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<sly data-sly-include="/apps/Project_O2Store/components/structure/O2-Header/O2-Header.html"/>
+<script>
+$(document).ready(function(){
+  $("#cod").click(function(){
+    $(".container2").hide();
+  });
+  $("#cc").click(function(){
+    $(".container2").show();
+  });
+    $("#dc").click(function(){
+    $(".container2").show();
+  });
 
-<div class="quickbuyalign-hero">
+  $('.button1').click(function(){
+ $('.button1').removeClass('highlight');
+ $(this).addClass('highlight');
+});
+
+});
+</script>
+
+</head>
+<body>
+<main class="cmp_o2pdp_container" style="margin-top:50px;">
+
+<div class="cmp_o2pdp_left-column">
+
+     <div class="quickbuyalign-hero">
 <div class="quickbuyalignment" >
 <u><h2>Order Details</h2></u>
 <br>
@@ -78,20 +247,176 @@ Product Name : ${obj1.getName}<br><br>
 <h2 id="price-attribute">Total Price is : ${obj1.getPrice}</h2>
 <br>
 <br>
-<div id="confirmordersubmitButton">
-<button type button data-id="${obj1.getId}" class="quickshop btn btn-danger" >CheckOut</button>
-</div>
 <br>
 
 
 </div>
 </div>
-<div style="margin-top:700px;">
-<sly data-sly-include="/apps/Project_O2Store/components/structure/o2-footer/o2-footer.html"/>            
-<script>
 
-$('.quickshop').click(function (event) {
-event.preventDefault();
+</div>
+<div class="cmp_o2pdp_right-column">
+        <div class="container">
+            <h1>Shipping</h1>
+            <p>Please enter your shipping details.</p>
+            <hr />
+            <div class="form">
+              
+            <div class="fields fields--2">
+              <label class="field">
+                <span class="field__label" for="firstname">First name</span>
+                <input class="field__input" type="text" id="firstname" />
+              </label>
+              <label class="field">
+                <span class="field__label" for="lastname">Last name</span>
+                <input class="field__input" type="text" id="lastname"/>
+              </label>
+            </div>
+            <label class="field">
+              <span class="field__label" for="address">Address</span>
+              <input class="field__input" type="text" id="address" />
+            </label>
+            <label class="field">
+              <span class="field__label" for="country">Country</span>
+              <select class="field__input" id="country">
+                <option value="India">India</option>
+                <option value="unitedstates">United States</option>
+              </select>
+            </label>
+            <div class="fields fields--3">
+              <label class="field">
+                <span class="field__label" for="zipcode">Zip code</span>
+                <input class="field__input" type="text" id="zipcode" />
+              </label>
+              <label class="field">
+                <span class="field__label" for="city">City</span>
+                <input class="field__input" type="text" id="city" />
+              </label>
+              <label class="field">
+                <span class="field__label" for="state">State</span>
+                <select class="field__input" id="state">
+                  <option value="Andhra Pradesh">Andhra Pradesh</option>
+                  <option value="Telangana">Telangana</option>
+                  <option value="TamilNadu">Tamil Nadu</option>
+                </select>
+              </label>
+            </div>
+            </div>
+            <hr>
+            <br>
+
+            <p style="margin-left:6px; margin-top:-20px;">Select Payment Option</p>
+
+            <div style="margin-top:20px;">
+
+
+            <a  class="button1 highlight" id="cc" style="color:white;">Credit Card</a>
+            <a  class="button1" id="dc" style="color:white;">Debit Card</a>
+            <a  class="button1" id="cod" style="color:white;">Cash On Delivery</a>
+            </div>
+
+              <div class="container2" style="margin-top:20px;">
+            
+            <hr />
+            <div class="form">
+              
+          <h2>Enter your Card Details</h2>
+            <label class="field">
+              <span class="field__label" for="address">Card Number</span>
+              <input type="text" class="field__input" data-mask="0000 0000 0000 0000" placeholder="xxxx xxxx xxxx xxxx" id="cardnumber1" name="cardnumber1">
+            </label>
+            <label class="field">
+              <span class="field__label" for="country">CardHolder name</span>
+              <input type="text" class="field__input input" id="name1" name="name1">
+            </label>
+            <div class="fields fields--3">
+              <label class="field">
+                <span class="field__label" for="zipcode">Expiry Date</span>
+                <input type="text" class=" field__input input" data-mask="00 / 00" style="background: transparent;
+                border:none" placeholder="MM / YY" id="expiry1" name="expiry1">
+
+              </label>
+              <label class="field">
+                <span class="field__label" for="city">CVV</span>
+                <input type="password" class="input" data-mask="000" placeholder="000" id="cvv1" name="cvv1" style="background: transparent;
+                border:none" placeholder="000">
+                
+              </label>
+              <label class="field">
+                <span class="field__label" for="state">zipcode</span>
+                <input type="text" class="input" data-mask="000" placeholder="000" name="cvv2" style="background: transparent;
+                border:none" placeholder="*****">
+
+              </label>
+            </div>
+            </div>
+            <hr>
+          </div>
+         <!--   <div id="submitButton" style="margin-top:20px;">
+       <button type="button" class="button shippingdetailsbtn2" id="totalprice-submit_btn" >Complete the Order</button>
+ 		  </div> -->
+
+          <div id="confirmordersubmitButton">
+<button type button data-id="${obj1.getId}" class="quickshop button" >CheckOut</button>
+</div>
+
+    </div>
+   </main> 
+
+   <script>
+
+$('.quickshop').click(function(){ 
+var fullname = $('#firstname').val(); 
+var email = $('#lastname').val(); 
+var address = $('#address').val(); 
+var city = $('#city').val();
+var state = $('#state').val();
+var postalcode = $('#zipcode').val();
+if(!fullname || !email || !address || !city || !state || !postalcode){
+return;
+}
+$.ajax({
+    type : "POST",    
+        url : '/bin/ShippingDetails/ShippingDetailsServlet',    
+        data : {        
+          fullname:fullname,
+           email:email,
+           address:address,
+           city:city,
+           state:state,
+           postalcode:postalcode
+        },    
+        success : function(data, textStatus, jqXHR) {
+        },    
+        error : function(XMLHttpRequest, textStatus, errorThrown) {        
+        }
+        });
+
+<!-- card-->
+var cardnumber = $('#cardnumber1').val(); 
+var name = $('#name1').val(); 
+var expiry = $('#expiry1').val(); 
+var cvv = $('#cvv1').val(); 
+if(!cardnumber || !name || !expiry || !cvv){
+return;
+}
+$.ajax({
+    type : "POST",    
+        url : '/bin/CreditCard/CreditCardServlet',    
+        data : {        
+           cardnumber:cardnumber,
+           name:name,
+           expiry:expiry,
+           cvv:cvv
+
+        },    
+        success : function(data, textStatus, jqXHR) {
+
+        },    
+        error : function(XMLHttpRequest, textStatus, errorThrown) {        
+        }
+}); 
+
+ event.preventDefault();
  var id= $(this).data('id');
                 $.ajax({
     		type : "POST",    
@@ -101,12 +426,15 @@ event.preventDefault();
 
         	},    
         	success : function(data, textStatus, jqXHR) {
-            window.location = "/content/Project_O2Store/language-master/en/login/BillingPage.html";
+            window.location = "/content/Project_O2Store/language-master/en/login/orderplaced.html";
             },
             error : function(XMLHttpRequest, textStatus, errorThrown) {        
 
         	}
         });
-            });
+}); 
+
 
 </script>
+</body>
+</html>

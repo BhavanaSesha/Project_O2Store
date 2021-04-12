@@ -19,7 +19,7 @@ public class QuickShopDao {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         try (Connection connection = DriverManager
-            .getConnection("jdbc:mysql://localhost:3306/o2store_project", "root", "Bhavana@1");
+            .getConnection("jdbc:mysql://localhost:3306/o2store", "root", "Amalapuram@9");
 
             PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {
             preparedStatement.setInt(1,id );

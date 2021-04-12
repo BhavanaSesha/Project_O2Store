@@ -16,10 +16,81 @@ data-sly-call="${clientlib.js @ categories='Project_O2Store.site'}"/>
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
       <meta name="robots" content="noindex,follow" />
+<style>
+  .cmp_o2pdp_cart-btn {
+     background-color: #2E8B57;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: block;
+  color: #fff;
+
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  }
+
+  #bcmb
+{
+margin-top:20px;
+}
+
+ /* Style the list */
+ul.pdp_breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+ 
+
+/* Display list items side by side */
+ul.pdp_breadcrumb li {
+  display: inline;
+  font-size: 15px;
+}
+
+ 
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.pdp_breadcrumb li+li:before {
+
+  color: #2E8B57;
+  content: "/\00a0";
+}
+
+ 
+
+/* Add a color to all links inside the list */
+ul.pdp_breadcrumb li a {
+  color: #2E8B57;
+  text-decoration: none;
+}
+
+ .bb
+ {
+ margin-left:-40px;
+ }
+
+/* Add a color on mouse-over */
+ul.pdp_breadcrumb li a:hover {
+  color: #2E8B57;
+  text-decoration: underline;
+}
+
+</style>
    </head>
 
    <body>
-      <h6 class="cmp_o2pdp_breadcrumb" data-sly-resource="${'breadcrumb' @resourceType='foundation/components/breadcrumb'}"></h6>
+<div id="bcmb" style="font-size:12px font-family: 'Roboto', sans-serif;
+ font-weight:600;">
+
+<ul class="pdp_breadcrumb bg-transparent m-0 px-5">
+<a href="/content/Project_O2Store/language-master/en/homepage.html"style="margin-left:50px; color:#2E8B57;">Home Page                  /</a>
+    <li class="bb"><sly data-sly-resource="${'Breadcrumb' @resourceType='core/wcm/components/breadcrumb/v2/breadcrumb'}"></sly></li>
+</ul>
+</div>
 
    <main class="cmp_o2pdp_container">
 

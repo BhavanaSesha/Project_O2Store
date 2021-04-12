@@ -28,10 +28,10 @@ data-sly-call="${clientlib.js @ categories='o2_cart'}"/>
                     <table class="show-cart table">
 
                     </table>
-                    <div>Total price: Rs<span class="total-cart"></span></div>
+                    <div>Total price: ₹ <span class="total-cart"></span></div>
                 </div>
                 <div class="modal-footer">
-                    <a href="/content/Project_O2Store/language-master/en/login/addtocart.html"><button type="button" class="allcart btn btn-primary">Order now</button></a>
+                    <button type="button" class="allcart btn" style="background-color:#2E8B57; color:white">Order now</button>
                 </div>
             </div>
         </div>
@@ -69,11 +69,10 @@ $.ajax({
     type : "POST",    
         url : '/bin/Cart/CookieServlet',    
         data : { 
-        customerId:customerId,
-
+        customerId:customerId
         },    
         success : function(data, textStatus, jqXHR) {
-
+        window.location = "/content/Project_O2Store/language-master/en/login/addtocart.html";
         },    
         error : function(XMLHttpRequest, textStatus, errorThrown) {        
         }

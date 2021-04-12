@@ -1,5 +1,5 @@
 
-html, body {
+     html, body {
     height: 100%;
     width: 100%;
     margin: 0;
@@ -30,6 +30,7 @@ html, body {
     margin: 0 auto;
     padding: 20px;
     display:flex;
+    margin-top:-10px;
   }
 
 
@@ -130,20 +131,6 @@ html, body {
      font-weight:bold;
    }
 
-
-  .cmp_o2pdp_cart-btn {
-    display: inline-block;
-    background-color: #3a3b3c;
-    border-radius: 5px;
-    font-size: 14px;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 10px 20px;
-    transition: all .5s;
-  }
-  .cmp_o2pdp_cart-btn:hover {
-    background-color: green;
-  }
 
   .offer
   {

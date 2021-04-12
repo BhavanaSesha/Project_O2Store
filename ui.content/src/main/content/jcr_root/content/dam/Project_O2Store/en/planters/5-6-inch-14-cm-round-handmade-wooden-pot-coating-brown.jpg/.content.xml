@@ -8,7 +8,7 @@
         cq:name="5-6-inch-14-cm-round-handmade-wooden-pot-coating-brown.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/planters"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:16:40.376+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:30.349+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -27,7 +27,7 @@
             dam:size="{Long}24168"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:29.053+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:16:37.204+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:27.047+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

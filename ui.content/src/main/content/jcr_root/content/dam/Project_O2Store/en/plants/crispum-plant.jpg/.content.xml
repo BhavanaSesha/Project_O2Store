@@ -8,7 +8,7 @@
         cq:name="crispum-plant.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/plants"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:16:56.872+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:39.706+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -27,7 +27,7 @@
             dam:size="{Long}63675"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:25.825+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:16:56.030+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:39.481+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

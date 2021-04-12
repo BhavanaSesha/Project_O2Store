@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-		alert("invoked");
+		//alert("invoked");
          $("#Accesories").hide();
         $("#Materials").hide();
         $('#all-unchecked').hide();

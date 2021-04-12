@@ -8,7 +8,7 @@
         cq:name="p11.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/homepage"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:18:37.826+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:16.354+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -17,7 +17,7 @@
             dam:size="{Long}76256"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-10T19:18:34.867+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:18:34.866+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:13.174+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

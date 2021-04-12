@@ -8,7 +8,7 @@
         cq:name="p14.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/homepage"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:18:38.532+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:36.962+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -23,11 +23,11 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="ee7d3b33e7cd1b3250a4a8d90b404cf8984cb2ff"
+            dam:sha1="139ff3e84a11e9d8ccb6a62fdc7e14b578d67be4"
             dam:size="{Long}42284"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-10T19:18:38.153+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:18:38.153+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:36.489+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

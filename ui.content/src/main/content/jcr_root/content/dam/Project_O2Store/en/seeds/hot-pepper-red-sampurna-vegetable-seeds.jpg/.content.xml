@@ -8,7 +8,7 @@
         cq:name="hot-pepper-red-sampurna-vegetable-seeds.jpg"
         cq:parentPath="/content/dam/Project_O2Store/en/seeds"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-04-10T19:18:23.752+05:30"
+        jcr:lastModified="{Date}2021-04-11T17:12:55.198+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -27,7 +27,7 @@
             dam:size="{Long}59169"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-04-09T22:42:49.752+05:30"
-            jcr:lastModified="{Date}2021-04-10T19:17:27.606+05:30"
+            jcr:lastModified="{Date}2021-04-11T17:12:53.367+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
