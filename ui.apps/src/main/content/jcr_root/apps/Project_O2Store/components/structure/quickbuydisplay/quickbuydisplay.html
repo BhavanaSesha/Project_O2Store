@@ -205,6 +205,17 @@ hr {
  font-weight:bold;
  background-color:black;
 }
+#price-attribute
+{
+    margin-left:38px; 
+    margin-top:20px; 
+    color: white;
+    padding:15px;
+    background-color:#2E8B57;
+    width:60%;
+    border-radius:5px;
+    text-align:center;
+}
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -236,18 +247,14 @@ $(document).ready(function(){
 
      <div class="quickbuyalign-hero">
 <div class="quickbuyalignment" >
-<u><h2>Order Details</h2></u>
-<br>
-<br>
-
-Product Id : ${obj1.getId}<br>
-Product Price : ${obj1.getPrice}<br>
-Product Name : ${obj1.getName}<br><br>
-<br><br>
+<h2 style="margin-left:40px;, margin-top:70px;">Order Details</h2>
 <h2 id="price-attribute">Total Price is : ${obj1.getPrice}</h2>
 <br>
-<br>
-<br>
+
+<h6 style="color: #43484D;margin-left:40px;">Product Name : ${obj1.getName}</h6>
+<h6 style="color: #43484D;margin-left:40px;">Price : ${obj1.getPrice}</h6>
+
+
 
 
 </div>
@@ -356,7 +363,7 @@ Product Name : ${obj1.getName}<br><br>
  		  </div> -->
 
           <div id="confirmordersubmitButton">
-<button type button data-id="${obj1.getId}" class="quickshop button" >CheckOut</button>
+<button type button data-id="${obj1.getId}" class="quickshop button"  style="margin-top:20px;" >CheckOut</button>
 </div>
 
     </div>
@@ -392,7 +399,7 @@ $.ajax({
         });
 
 <!-- card-->
-var cardnumber = $('#cardnumber1').val(); 
+/*var cardnumber = $('#cardnumber1').val(); 
 var name = $('#name1').val(); 
 var expiry = $('#expiry1').val(); 
 var cvv = $('#cvv1').val(); 
@@ -414,7 +421,7 @@ $.ajax({
         },    
         error : function(XMLHttpRequest, textStatus, errorThrown) {        
         }
-}); 
+}); */
 
  event.preventDefault();
  var id= $(this).data('id');

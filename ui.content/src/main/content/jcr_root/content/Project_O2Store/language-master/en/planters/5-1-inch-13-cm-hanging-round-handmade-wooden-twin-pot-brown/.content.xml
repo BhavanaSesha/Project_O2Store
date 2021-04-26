@@ -2,14 +2,14 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-04-12T20:46:24.932+05:30"
+        cq:lastModified="{Date}2021-04-12T23:32:47.650+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/Project_O2Store/Project_O2StoreTemplates/settings/wcm/templates/o2projecttemplate"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Wooden Twin Brown Pot"
-        jcr:uuid="e148cc5b-5b82-4993-908a-88ee097e7e6a"
+        jcr:uuid="f3d71583-765c-4449-83de-0d7f85b06c24"
         sling:resourceType="Project_O2Store/components/structure/page">
         <root
             jcr:lastModified="{Date}2021-04-06T15:45:02.604+05:30"
@@ -44,7 +44,7 @@
                 price="{Long}1200"
                 title="Wooden Twin Brown Pot">
                 <Breadcrumb
-                    jcr:lastModified="{Date}2021-04-12T20:46:24.931+05:30"
+                    jcr:lastModified="{Date}2021-04-12T23:32:47.648+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"

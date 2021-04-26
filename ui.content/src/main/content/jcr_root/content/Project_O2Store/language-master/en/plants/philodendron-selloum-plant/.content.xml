@@ -2,14 +2,14 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-04-12T20:38:23.406+05:30"
+        cq:lastModified="{Date}2021-04-12T23:18:31.030+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/Project_O2Store/Project_O2StoreTemplates/settings/wcm/templates/o2projecttemplate"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Philodendron Selloum Plant"
-        jcr:uuid="fcfff045-877b-419d-821a-0d5299ddd96a"
+        jcr:uuid="bd38a09b-a418-4dbb-82e7-52f8532e8b8f"
         sling:resourceType="Project_O2Store/components/structure/page">
         <root
             jcr:lastModified="{Date}2021-04-06T15:45:02.604+05:30"
@@ -26,7 +26,7 @@
             <o2pdpcomponent
                 jcr:created="{Date}2021-04-05T12:59:20.608+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-04-05T12:59:20.608+05:30"
+                jcr:lastModified="{Date}2021-04-12T23:18:15.662+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:ReplicationStatus]"
                 jcr:primaryType="nt:unstructured"
@@ -36,7 +36,7 @@
                 aboutPoint3="The trunk of this plant can send down many strong aerial roots that not only give support to the overall plant mass, but also serve to absorb water and nutrients from the soil."
                 category="foilage"
                 description="These magnificent, massive plants bring the look of the tropics to any yard. They will grow in sun but do best in a part sun to part or full shade area."
-                fileReference="/content/dam/Project_O2Store/en/plants/philodendron-selloum-/content/dam/Project_O2Store/en/plants/philodendron-selloum-plant.jpg/jcr:content/renditions/cq5dam.web.480.500.jpeg"
+                fileReference="/content/dam/Project_O2Store/en/plants/philodendron-selloum-plant.jpg"
                 offer1="1 Plant Food worth 15/- free"
                 offer2="20% Cashback"
                 originalPrice="{Long}639"
@@ -44,7 +44,7 @@
                 price="{Long}600"
                 title="Philodendron Selloum Plant">
                 <Breadcrumb
-                    jcr:lastModified="{Date}2021-04-12T20:38:23.405+05:30"
+                    jcr:lastModified="{Date}2021-04-12T23:18:31.029+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"

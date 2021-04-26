@@ -1,3 +1,4 @@
+
 package com.mindtree.Project_O2Store.core.dao;
 
 import java.sql.Connection;
@@ -6,8 +7,8 @@ import java.sql.SQLException;
 
 public class DBUtil {
 	private static final String username="root";
-	private static final String password="Amalapuram@9";
-	private static final String url="jdbc:mysql://localhost:3306/o2store";
+	private static final String password="Bhavana@1";
+	private static final String url="jdbc:mysql://localhost:3306/o2store_project";
 	public static Connection getConnection() {
 		Connection connection = null;
 		try {
